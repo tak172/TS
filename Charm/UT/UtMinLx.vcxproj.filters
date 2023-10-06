@@ -1,0 +1,2795 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="AdoptTools">
+      <UniqueIdentifier>{14905b02-2b28-44d2-841c-a976bdba359a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AdoptTools\LZ4">
+      <UniqueIdentifier>{0d7959cf-49df-4af0-a98e-192ffa23a6ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AdoptTools\NeoSmart">
+      <UniqueIdentifier>{2f2328d6-ad18-4d03-ac25-55daa5b73da6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AdoptTools\cryptopp">
+      <UniqueIdentifier>{ca4e6166-1944-4402-9f47-0cdaf7271b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AdoptTools\cryptopp\header">
+      <UniqueIdentifier>{8d1c367a-d73d-4bc7-bd13-eba728e03ae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AdoptTools\cryptopp\source">
+      <UniqueIdentifier>{8f1f778f-1499-4f41-9eeb-4fcc99e51077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AdoptTools\PugiXml">
+      <UniqueIdentifier>{5a425fa5-940d-4941-9317-cba90b079fe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestCase">
+      <UniqueIdentifier>{d0c14ff3-5ffc-4812-8aa6-403119d491fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{e1fd1399-fb24-46d9-aaf5-7bd487176314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Docker">
+      <UniqueIdentifier>{566ee3df-fc18-4d08-82f2-c72c33c4b421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Docker\TcpStates">
+      <UniqueIdentifier>{f29734b9-aa01-4ef2-8905-56f83a56ac82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CppUnit environment">
+      <UniqueIdentifier>{9277deb9-17a3-46bb-8072-085029041eb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\helpful">
+      <UniqueIdentifier>{8723fb7e-6a0f-48fe-91fd-93f3be37022a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Haron">
+      <UniqueIdentifier>{0d63dd47-5624-48e6-9d75-15ddf93fd6ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Actor">
+      <UniqueIdentifier>{e3aef41d-42ee-452c-bdac-07eef37b8399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Actor\HemDraw">
+      <UniqueIdentifier>{665c3929-57f2-40c8-819f-b8eafc740e99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BlackBox">
+      <UniqueIdentifier>{6203f8cd-8242-4d56-9c18-3fb5e1fc046e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Guess">
+      <UniqueIdentifier>{a627cf37-cd9f-4a5b-88f3-6d53ffeddcbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Haron\UART">
+      <UniqueIdentifier>{010ea7f9-2093-4605-9c7f-1c9fb3c86676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StatBuilder">
+      <UniqueIdentifier>{f7f98f01-9c58-4718-9627-8baa81894f63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hasper">
+      <UniqueIdentifier>{7f3c5c02-3bac-4c0d-b797-c1d6ece5131e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AdoptTools\Sentinel_HASP">
+      <UniqueIdentifier>{16ada7c5-8f8a-4d1b-8638-2ca613c05d59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Fund">
+      <UniqueIdentifier>{3db5650e-0137-4423-a688-6333c4b488e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SenseOfXml">
+      <UniqueIdentifier>{d3963b38-989d-4768-b04c-d24226164a0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hem">
+      <UniqueIdentifier>{55881a0a-40e5-41ad-a0ec-9128a505bc7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{7ecb1818-13f1-4b4d-bd5f-88f34b1b4d76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Permission">
+      <UniqueIdentifier>{69370026-1d75-49b4-afc8-179c62f6081d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TeleControl">
+      <UniqueIdentifier>{80e7a634-a7a6-4869-99e4-baa08557f3bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Fund\TrainUIC">
+      <UniqueIdentifier>{9b0a4f61-4093-4414-99e8-18025dea49c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Fund\RegulatoryRecode">
+      <UniqueIdentifier>{01c764ef-7fd9-4d13-8189-09c04684daf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Asoup">
+      <UniqueIdentifier>{7674eb29-dede-4676-9762-030eba532625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Fund\UralParser">
+      <UniqueIdentifier>{154851f1-21e4-483c-ae62-4fdeaa099c0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestCase\Haron">
+      <UniqueIdentifier>{272776e1-be19-4c81-8056-b86c29de9a4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestCase\Fund">
+      <UniqueIdentifier>{7016b399-5ffc-431b-b070-0e84c42a3717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestCase\helpful">
+      <UniqueIdentifier>{93e64f51-0016-4698-9b9b-c663227a9202}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\AdoptTools\LZ4\lz4.c">
+      <Filter>AdoptTools\LZ4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\NeoSmart\pevents.cpp">
+      <Filter>AdoptTools\NeoSmart</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\algebra.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\algparam.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\allocate.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\asn.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\basecode.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\cpu.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\cryptlib.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\des.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\dessp.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\dll.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\ec2n.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\eccrypto.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\ecp.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\eprecomp.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\filters.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\fips140.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\gf2n.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\gf2n_simd.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\gfpcrypt.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\hex.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\hmac.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\hrtimer.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\integer.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\iterhash.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\keccak.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\keccak_core.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\misc.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\modes.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\mqueue.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\nbtheory.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\oaep.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\osrng.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\pkcspad.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\pssr.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\pubkey.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\queue.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\randpool.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\rdtables.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\rijndael.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\rijndael_simd.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\rng.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\rsa.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\sha.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\sha3.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\sse_simd.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\strciphr.cpp">
+      <Filter>AdoptTools\cryptopp\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\PugiXML\pugixml.cpp">
+      <Filter>AdoptTools\PugiXml</Filter>
+    </ClCompile>
+    <ClCompile Include="TC_Docker.cpp">
+      <Filter>TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Docker\dk_connection.cpp">
+      <Filter>Source Files\Docker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Docker\dk_connectionsmanager.cpp">
+      <Filter>Source Files\Docker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Docker\dk_docker.cpp">
+      <Filter>Source Files\Docker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Docker\dk_identifier.cpp">
+      <Filter>Source Files\Docker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Docker\dk_message.cpp">
+      <Filter>Source Files\Docker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Docker\TcpStates\dk_tcpclosed.cpp">
+      <Filter>Source Files\Docker\TcpStates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Docker\TcpStates\dk_tcpconnecting.cpp">
+      <Filter>Source Files\Docker\TcpStates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Docker\TcpStates\dk_tcpdestroy.cpp">
+      <Filter>Source Files\Docker\TcpStates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Docker\TcpStates\dk_tcpestablished.cpp">
+      <Filter>Source Files\Docker\TcpStates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Docker\TcpStates\dk_tcplistening.cpp">
+      <Filter>Source Files\Docker\TcpStates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Docker\TcpStates\dk_tcpresolving.cpp">
+      <Filter>Source Files\Docker\TcpStates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Docker\TcpStates\dk_tcpstate.cpp">
+      <Filter>Source Files\Docker\TcpStates</Filter>
+    </ClCompile>
+    <ClCompile Include="UT_MainLx.cpp">
+      <Filter>CppUnit environment</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>CppUnit environment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\X_translate.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\Utf8.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\EsrKit.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\Log.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\FilesOpepations.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\Rt_ThreadName.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\WatchDog.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\StrToTime.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\Time_Iso.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\ErrorHandler.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="RT_Progressor.cpp">
+      <Filter>CppUnit environment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\AssertHandler.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\linux_defs.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\FilesByMask.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="TC_Uart_VecTexting.cpp">
+      <Filter>TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="TC_UartThread.cpp">
+      <Filter>TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\Dictum.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\StateCollector.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\Trindex.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\HaronAbcLoader.cpp">
+      <Filter>Source Files\Haron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\HaronBbx.cpp">
+      <Filter>Source Files\Haron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\HaronChanelCfg.cpp">
+      <Filter>Source Files\Haron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\HaronCommandos.cpp">
+      <Filter>Source Files\Haron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\HaronCore.cpp">
+      <Filter>Source Files\Haron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\HaronMgrIO.cpp">
+      <Filter>Source Files\Haron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\HaronWatchdog.cpp">
+      <Filter>Source Files\Haron</Filter>
+    </ClCompile>
+    <ClCompile Include="UartMsg.cpp">
+      <Filter>CppUnit environment</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlEqual.cpp">
+      <Filter>CppUnit environment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\Attic.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\HaronWatchdogAction.cpp">
+      <Filter>Source Files\Haron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\PasswordManager.cpp">
+      <Filter>Source Files\Haron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\DigitalSigner.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\RSensorsSerializable.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\unicode_str_func.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\Badge.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\Irq_desc.cpp">
+      <Filter>Source Files\Haron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\HaronTransform.cpp">
+      <Filter>Source Files\Haron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\Kts.cpp">
+      <Filter>Source Files\Haron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\HaronStrongPoint.cpp">
+      <Filter>Source Files\Haron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\HaronTime.cpp">
+      <Filter>Source Files\Haron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\Rt_Crc32.CPP">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\Esr_t.cpp">
+      <Filter>Source Files\Haron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\HaronFlatAddressSpace.cpp">
+      <Filter>Source Files\Haron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\HaronKitMessage.cpp">
+      <Filter>Source Files\Haron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\HaronLive.cpp">
+      <Filter>Source Files\Haron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\HaronMgrRelator.cpp">
+      <Filter>Source Files\Haron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\RestrictIp.cpp">
+      <Filter>Source Files\Haron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\HaronRelay.cpp">
+      <Filter>Source Files\Haron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\HaronKitRelaySrv.cpp">
+      <Filter>Source Files\Haron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\HaronKitRelayClnt.cpp">
+      <Filter>Source Files\Haron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\PrintByteSequence.cpp">
+      <Filter>Source Files\Haron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\Xml_ErrorMessage.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\LgSubclause.cpp">
+      <Filter>Source Files\Haron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\Pilgrim.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\tncb.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\uart_CardDsp.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\uart_Clue.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\uart_dc.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\uart_dc_def.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\uart_dc_Dialog.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\uart_dc_Neman.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\uart_dc_neva.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\uart_dc_tk.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\uart_dc_trakt.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\uart_DefPrc.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\UART_EbiLock_Message.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\uart_hrd.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\uart_IoQ.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\uart_VecText.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\uart_th.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\uart_dc_kit.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\uart_dc_TrainUIC.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\FotoFinish.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\uart_th_WholeFiles.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\uart_th_HaronBbxReader.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\uart_th_Database.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\uart_th_Stub.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\uart_dc_postxml.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\uart_dc_GuXml.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\uart_dc_EbiLock.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\uart_Glp.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\UART_TrainUIC_Message.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\UART_MultiDSS_Message.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\uart_dc_MultiDSS.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\uart_dbg.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\uart_dc_Asoup.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\uart_dc_db2.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\uart_dc_PASS.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="TC_Attic.cpp">
+      <Filter>TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="TC_Locale.cpp">
+      <Filter>TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\RT_Locale.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\ErrorCodeMessage.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="TC_RestrictIp.cpp">
+      <Filter>TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="TC_StateLTS.cpp">
+      <Filter>TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="TC_Bbx.cpp">
+      <Filter>TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BlackBox\bbx_BlackBox.cpp">
+      <Filter>Source Files\BlackBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BlackBox\bbx_Writer.cpp">
+      <Filter>Source Files\BlackBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BlackBox\bbx_Record.cpp">
+      <Filter>Source Files\BlackBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BlackBox\bbx_Reader.cpp">
+      <Filter>Source Files\BlackBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BlackBox\bbx_Page.cpp">
+      <Filter>Source Files\BlackBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BlackBox\bbx_Location.cpp">
+      <Filter>Source Files\BlackBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BlackBox\bbx_Identifier.cpp">
+      <Filter>Source Files\BlackBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BlackBox\bbx_FileReader.cpp">
+      <Filter>Source Files\BlackBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BlackBox\bbx_FileChain.cpp">
+      <Filter>Source Files\BlackBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BlackBox\bbx_File.cpp">
+      <Filter>Source Files\BlackBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BlackBox\bbx_Extension.cpp">
+      <Filter>Source Files\BlackBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\HaronUralGate.cpp">
+      <Filter>Source Files\Haron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\LTUCommonFunc.cpp">
+      <Filter>Source Files\Haron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\ImpulsTU.cpp">
+      <Filter>Source Files\Haron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\LTUCommands.cpp">
+      <Filter>Source Files\Haron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\uart_th_clnt.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\HaronChannelInfo.cpp">
+      <Filter>Source Files\Haron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\ProtectThread.cpp">
+      <Filter>Source Files\Haron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Hasper\keyHasp.cpp">
+      <Filter>Source Files\Hasper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\uart_asio_addon.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Actor\LOSBase.cpp">
+      <Filter>Source Files\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Actor\LOSStrip.cpp">
+      <Filter>Source Files\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Actor\LOSBoard.cpp">
+      <Filter>Source Files\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Actor\LOSCommutator.cpp">
+      <Filter>Source Files\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Actor\LOSFigure.cpp">
+      <Filter>Source Files\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Actor\LOSHead.cpp">
+      <Filter>Source Files\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Actor\LOSHtmlText.cpp">
+      <Filter>Source Files\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Actor\LOSLandscape.cpp">
+      <Filter>Source Files\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Actor\LOSSwitch.cpp">
+      <Filter>Source Files\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Actor\LOSText.cpp">
+      <Filter>Source Files\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StatBuilder\LogicElement.cpp">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\TrainDescr.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Actor\InfoNumber.cpp">
+      <Filter>Source Files\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Actor\Commutator_Arrow.cpp">
+      <Filter>Source Files\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\TrainCharacteristics.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\TrainNumber.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\TrainSpecialNotes.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StatBuilder\UnknownAttributs.cpp">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Actor\UnderLimit.cpp">
+      <Filter>Source Files\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\LOSRoute.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StatBuilder\LogicStrip.cpp">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Actor\Latch_LOSHead.cpp">
+      <Filter>Source Files\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\RouteElementState.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\Crew.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\Locomotive.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\LocoCharacteristics.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\Informator.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\WeightNorms.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\LogicRelay.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StatBuilder\XMLWrapper.cpp">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\AcceptorsBank.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\WorkHours.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\BisK.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\rwCoord.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\rwInterval.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\Kts_Support.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\Interval_Time_t.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\PicketingInfo.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\LacunaInfo.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\DllPlug.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\Lexicon.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="TC_Pilgrim.cpp">
+      <Filter>TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="TC_Canopy_Filer.cpp">
+      <Filter>TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Hem\Filer.cpp">
+      <Filter>Source Files\Hem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\FileLocking.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\EsrGuide.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Haron\uart_th_udp.cpp">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\Aileron.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\PosterBreath.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\PosterShop.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\PosterSubst.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\RibSet.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\RackLTS.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\RackWarning.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\RackWindow.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\RelayCenter.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\LimitDetail.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\LimitCore.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Permission\ActorPermit.cpp">
+      <Filter>Source Files\Permission</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\ExtId.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\Canopy.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\CustomMode.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\GidUraler.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\ExcerptWindow.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Guess\GLog.cpp">
+      <Filter>Source Files\Guess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\GuessGateway.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GUI\GuiMarkStaticInfo.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StatBuilder\LogicRoute.cpp">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Hem\Platforms.cpp">
+      <Filter>Source Files\Hem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StatBuilder\RegionDescription.cpp">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\RestrictSpeed.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\StateReporter.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\RomanNumber.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\SpanLockType.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\TimeExtIdContainer.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\TopologyDecl.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\ValetsRoom.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\TuRack.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\Valet.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TeleControl\KeyAccumulator.cpp">
+      <Filter>Source Files\TeleControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\HemCommandRight.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\LogCleaner.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SenseOfXml\SenseOfXml.cpp">
+      <Filter>Source Files\SenseOfXml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SenseOfXml\SenseOfXml_Fund.cpp">
+      <Filter>Source Files\SenseOfXml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Permission\PermissionDesignated.cpp">
+      <Filter>Source Files\Permission</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StatBuilder\LogicCommand.cpp">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\LogStream.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\ExcerptLot.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\ForbidDetail.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\DistrictGuide.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\StatWorkModeGuide.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\TechnicalTime.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\RoadKit.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\RailroadClassifier.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\SpanTravelTime.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\ActorConnection.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TeleControl\StationControl.cpp">
+      <Filter>Source Files\TeleControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TeleControl\RegionControl.cpp">
+      <Filter>Source Files\TeleControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SenseOfXml\Outlet.cpp">
+      <Filter>Source Files\SenseOfXml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\HemTabInfo.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\ArchivistGateway.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\Archivist.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\AramisNotify.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\ActorGateway.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\ActorGatewayTu.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\TimeMachine.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\Dictum_Gui.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\MoveHelpSystem.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\F2A_BbxOption.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="TC_ActorPermit.cpp">
+      <Filter>TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="Parody.cpp">
+      <Filter>TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StatBuilder\LogicElementFactory.cpp">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StatBuilder\LogicAutoblocking.cpp">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StatBuilder\LogicCommutator.cpp">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StatBuilder\LogicBoard.cpp">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StatBuilder\LogicCrossing.cpp">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StatBuilder\LogicHead.cpp">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StatBuilder\LogicJoint.cpp">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StatBuilder\LogicFigure.cpp">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StatBuilder\LogicLandscape.cpp">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StatBuilder\LogicSemaleg.cpp">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StatBuilder\LogicSwitch.cpp">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="TC_Archivist.cpp">
+      <Filter>TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="UtHelpfulBlackBox.cpp">
+      <Filter>TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="UtGateway.cpp">
+      <Filter>TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\FilenameCaseMatch.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="TC_FundKernel.cpp">
+      <Filter>TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\FundKernel.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\LandSupport.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\LandTrainPlacer.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\BoardsSupport.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StatBuilder\StripsParkwayKit.cpp">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\TrainNumLogger.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Hem\UncontrolledStations.cpp">
+      <Filter>Source Files\Hem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\RegulatoryRecode\RegRecode_Gathering.cpp">
+      <Filter>Source Files\Fund\RegulatoryRecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\RegulatoryRecode\RegRecode_Schedule.cpp">
+      <Filter>Source Files\Fund\RegulatoryRecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\RegulatoryRecode\RegRecode_Path.cpp">
+      <Filter>Source Files\Fund\RegulatoryRecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\RegulatoryRecode\RegRecode_UnzipMs.cpp">
+      <Filter>Source Files\Fund\RegulatoryRecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Hem\DailyCalendar.cpp">
+      <Filter>Source Files\Hem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\RegulatoryRecode\RegRecode_Event.cpp">
+      <Filter>Source Files\Fund\RegulatoryRecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Hem\IdentifyCategory.cpp">
+      <Filter>Source Files\Hem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Actor\HemDraw\NumDiapason.cpp">
+      <Filter>Source Files\Actor\HemDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Hem\AsoupBusyInfo.cpp">
+      <Filter>Source Files\Hem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\PocketPusher.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\BlackSpan.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\SupplyTrainInfo.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\WeightIndicator.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\InBbxEmitter.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\IndirectLosesNotifier.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Actor\TimeWarper.cpp">
+      <Filter>Source Files\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="UtPlayerCreator.cpp">
+      <Filter>TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StatBuilder\StationManager.cpp">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\Span.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StatBuilder\LObjectManager.cpp">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StatBuilder\LogicPool.cpp">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StatBuilder\LogicSpanWay.cpp">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\PipeQueue.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\Dump.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StatBuilder\LogicDocument.cpp">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StatBuilder\LDocBundle.cpp">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\TrainUIC\Atn_Pool.cpp">
+      <Filter>Source Files\Fund\TrainUIC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\TrainUIC\Atn_Tool.cpp">
+      <Filter>Source Files\Fund\TrainUIC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\TrainUIC\EbiLock_ObjMap.cpp">
+      <Filter>Source Files\Fund\TrainUIC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StatBuilder\SpanKit.cpp">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\FundConfig.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\FundTuRack.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\Foreign_Parser.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\Foreign_Utils.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StatBuilder\LObjectKeeper.cpp">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StatBuilder\LXMLWrapper.cpp">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StatBuilder\LLoadResult.cpp">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StatBuilder\LinkManager.cpp">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\TrainPlacesReview.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StatBuilder\LObjManPool.cpp">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\RegulatoryRecode\RegRecode_GuText2.cpp">
+      <Filter>Source Files\Fund\RegulatoryRecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TeleControl\HintRoute.cpp">
+      <Filter>Source Files\TeleControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\TerminalParkWayContent.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\DuePath.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\Companion.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Asoup\MessageParseHelper.cpp">
+      <Filter>Source Files\Asoup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\ExcerptTricolor.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\ExcerptWarning.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\WorkDirectorySaver.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Asoup\StringReader.cpp">
+      <Filter>Source Files\Asoup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\UralParser\StripShot.cpp">
+      <Filter>Source Files\Fund\UralParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fund\LogicFundDocument.cpp">
+      <Filter>Source Files\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="TC_Log.cpp">
+      <Filter>TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="TC_LogCleaner.cpp">
+      <Filter>TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="TC_Haron_AbcLoader.cpp">
+      <Filter>TestCase\Haron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\Journal.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\helpful\JournalGuide.cpp">
+      <Filter>Source Files\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="TC_AramisNotify.cpp">
+      <Filter>TestCase\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="TC_Journal.cpp">
+      <Filter>TestCase\helpful</Filter>
+    </ClCompile>
+    <ClCompile Include="TC_Aileron.cpp">
+      <Filter>TestCase\Fund</Filter>
+    </ClCompile>
+    <ClCompile Include="TC_Badge.cpp">
+      <Filter>TestCase\helpful</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\AdoptTools\LZ4\lz4.h">
+      <Filter>AdoptTools\LZ4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\NeoSmart\pevents.h">
+      <Filter>AdoptTools\NeoSmart</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\aes.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\algebra.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\algparam.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\allocate.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\argnames.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\asn.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\authenc.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\basecode.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\cbcmac.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\ccm.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\channels.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\cmac.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\config.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\config_align.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\config_asm.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\config_cpu.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\config_cxx.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\config_dll.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\config_int.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\config_misc.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\config_ns.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\config_os.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\config_ver.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\cpu.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\cryptlib.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\des.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\dh.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\dll.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\dsa.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\ec2n.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\eccrypto.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\ecp.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\ecpoint.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\emsa2.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\eprecomp.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\fhmqv.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\files.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\filters.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\fips140.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\fltrimpl.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\gcm.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\gf2n.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\gfpcrypt.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\hashfwd.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\hex.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\hkdf.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\hmac.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\hmqv.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\hrtimer.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\integer.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\iterhash.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\keccak.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\mdc.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\misc.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\modarith.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\modes.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\modexppc.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\mqueue.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\mqv.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\nbtheory.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\oaep.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\oids.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\osrng.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\ossig.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\pch.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\pkcspad.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\pssr.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\pubkey.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\queue.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\randpool.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\rijndael.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\ripemd.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\rng.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\rsa.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\rw.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\secblock.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\secblockfwd.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\seckey.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\sha.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\sha3.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\simple.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\skipjack.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\smartptr.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\stdcpp.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\strciphr.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\trap.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\whrlpool.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\cryptopp\words.h">
+      <Filter>AdoptTools\cryptopp\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\PugiXML\pugiconfig.hpp">
+      <Filter>AdoptTools\PugiXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\PugiXML\pugixml.hpp">
+      <Filter>AdoptTools\PugiXml</Filter>
+    </ClInclude>
+    <ClInclude Include="TC_Docker.h">
+      <Filter>TestCase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Docker\dk_abi_prefix.h">
+      <Filter>Source Files\Docker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Docker\dk_abi_suffix.h">
+      <Filter>Source Files\Docker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Docker\dk_blockedqueue.h">
+      <Filter>Source Files\Docker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Docker\dk_connection.h">
+      <Filter>Source Files\Docker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Docker\dk_connectionsmanager.h">
+      <Filter>Source Files\Docker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Docker\dk_docker.h">
+      <Filter>Source Files\Docker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Docker\dk_herald.h">
+      <Filter>Source Files\Docker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Docker\dk_identifier.h">
+      <Filter>Source Files\Docker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Docker\dk_message.h">
+      <Filter>Source Files\Docker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Docker\dk_requirements.h">
+      <Filter>Source Files\Docker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Docker\dk_statistics.h">
+      <Filter>Source Files\Docker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Docker\TcpStates\dk_tcpclosed.h">
+      <Filter>Source Files\Docker\TcpStates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Docker\TcpStates\dk_tcpconnecting.h">
+      <Filter>Source Files\Docker\TcpStates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Docker\TcpStates\dk_tcpdestroy.h">
+      <Filter>Source Files\Docker\TcpStates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Docker\TcpStates\dk_tcpestablished.h">
+      <Filter>Source Files\Docker\TcpStates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Docker\TcpStates\dk_tcplistening.h">
+      <Filter>Source Files\Docker\TcpStates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Docker\TcpStates\dk_tcpresolving.h">
+      <Filter>Source Files\Docker\TcpStates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Docker\TcpStates\dk_tcpstate.h">
+      <Filter>Source Files\Docker\TcpStates</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>CppUnit environment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\std_charm_compile_option.h">
+      <Filter>CppUnit environment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\std_charm_required_platform.h">
+      <Filter>CppUnit environment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\X_translate.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\Utf8.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\RT_Macros.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\EsrKit.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\Log.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\linux_defs.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\FilesOpepations.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\RT_ThreadName.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\RT_Singleton.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_version_.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\WatchDog.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\linux_win32finddata.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\StrToTime.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\Time_Iso.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\ErrorHandler.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\synch.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\Dump.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="RT_Progressor.h">
+      <Filter>CppUnit environment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\AssertHandler.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\FilesByMask.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="TC_Uart_VecTexting.h">
+      <Filter>TestCase</Filter>
+    </ClInclude>
+    <ClInclude Include="TC_UartThread.h">
+      <Filter>TestCase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\Dictum.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\StateCollector.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\Trindex.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\dc_fmt.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\HaronAbcLoader.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\HaronBbx.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\HaronChanelCfg.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\HaronCommandos.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\HaronCore.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\HaronMgrIO.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\HaronWatchdog.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="UartMsg.h">
+      <Filter>CppUnit environment</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlEqual.h">
+      <Filter>CppUnit environment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\Attic.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\HaronWatchdogAction.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\PasswordManager.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\DigitalSigner.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\RSensorsSerializable.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\unicode_str_func.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\DcDialogHelper.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\Uuid.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\Badge.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\LOS_Area.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\ParkWayKit.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\StateLTS.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Actor\HemDraw\AttrMap.h">
+      <Filter>Source Files\Actor\HemDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BlackBox\bbx_Identifier.h">
+      <Filter>Source Files\BlackBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\Badge_fwd.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\HaronTypes.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\LtsInfo.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\Func_Add_Channel.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\Irq_desc.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\LTUCommands.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\HaronTransform.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\Kts.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\HaronStrongPoint.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\HaronTime.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\Rt_Crc32.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\Esr_t.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Guess\Msg.h">
+      <Filter>Source Files\Guess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\HaronFlatAddressSpace.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\ltu_status.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BlackBox\bbx_BlackBox.h">
+      <Filter>Source Files\BlackBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BlackBox\bbx_Location.h">
+      <Filter>Source Files\BlackBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\HaronKitMessage.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BlackBox\bbx_Stamp.h">
+      <Filter>Source Files\BlackBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\HaronLive.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\HaronMgrRelator.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\RestrictIp.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\HaronRelay.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\HaronKitRelaySrv.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\HaronKitRelayClnt.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\HaronChannelInfo.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\PrintByteSequence.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\Xml_ErrorMessage.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\LgSubclause.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\Pilgrim.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\BriefMsgBox.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\Rt_GrainArray.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\uart_VecText.h">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\tncb.h">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\uart_CardDsp.h">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\uart_Clue.h">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\uart_dc.h">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\uart_dc_def.h">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\uart_dc_Dialog.h">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\uart_dc_EbiLock.h">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\uart_dc_Neman.h">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\uart_dc_neva.h">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\uart_dc_tk.h">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\uart_dc_trakt.h">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\uart_DefPrc.h">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\UART_EbiLock_Message.h">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\uart_hrd.h">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\uart_IoQ.h">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\uart_th.h">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\uart_dc_kit.h">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\uart_dc_TrainUIC.h">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\FotoFinish.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BlackBox\bbx_Requirements.h">
+      <Filter>Source Files\BlackBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\uart_dc_MultiDSS.h">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\uart_dc_PASS.h">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\uart_th_clnt.h">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\uart_th_com.h">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\uart_th_srv.h">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\uart_th_udp.h">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\uart_th_WholeFiles.h">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\uart_th_HaronBbxReader.h">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\uart_th_Database.h">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\uart_th_Stub.h">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\UART_TrainUIC_Message.h">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\UART_MultiDSS_Message.h">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="TC_Attic.h">
+      <Filter>TestCase</Filter>
+    </ClInclude>
+    <ClInclude Include="TC_Locale.h">
+      <Filter>TestCase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\RT_Locale.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\additional_func.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BlackBox\bbx_FileChain.h">
+      <Filter>Source Files\BlackBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\ErrorCodeMessage.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="TC_RestrictIp.h">
+      <Filter>TestCase</Filter>
+    </ClInclude>
+    <ClInclude Include="TC_StateLTS.h">
+      <Filter>TestCase</Filter>
+    </ClInclude>
+    <ClInclude Include="TC_Bbx.h">
+      <Filter>TestCase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BlackBox\bbx_Writer.h">
+      <Filter>Source Files\BlackBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BlackBox\bbx_Record.h">
+      <Filter>Source Files\BlackBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BlackBox\bbx_Reader.h">
+      <Filter>Source Files\BlackBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BlackBox\bbx_PartHeader.h">
+      <Filter>Source Files\BlackBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BlackBox\bbx_Page.h">
+      <Filter>Source Files\BlackBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BlackBox\bbx_FileReader.h">
+      <Filter>Source Files\BlackBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BlackBox\bbx_File.h">
+      <Filter>Source Files\BlackBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BlackBox\bbx_Extension.h">
+      <Filter>Source Files\BlackBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BlackBox\bbx_BlockingPtrQueue.h">
+      <Filter>Source Files\BlackBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\HaronUralGate.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\LTUCommonFunc.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\ImpulsTU.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\ProtectThread.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Hasper\keyHasp.h">
+      <Filter>Source Files\Hasper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AdoptTools\Sentinel_HASP\C\Linux\hasp_api.h">
+      <Filter>AdoptTools\Sentinel_HASP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Hasper\memHASP.h">
+      <Filter>Source Files\Hasper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Hasper\vendorCode.h">
+      <Filter>Source Files\Hasper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\uart_asio_addon.h">
+      <Filter>Source Files\Haron\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\IPlayerPanel.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\Aileron.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\Link.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Actor\LOSBase.h">
+      <Filter>Source Files\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Actor\LOSStrip.h">
+      <Filter>Source Files\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Actor\LOSBoard.h">
+      <Filter>Source Files\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Actor\LOSCommutator.h">
+      <Filter>Source Files\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Actor\LOSFigure.h">
+      <Filter>Source Files\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Actor\LOSHead.h">
+      <Filter>Source Files\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Actor\LOSHtmlText.h">
+      <Filter>Source Files\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Actor\LOSLandscape.h">
+      <Filter>Source Files\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Actor\LOSSwitch.h">
+      <Filter>Source Files\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Actor\LOSText.h">
+      <Filter>Source Files\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Actor\LOSVoid.h">
+      <Filter>Source Files\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\LogicElement.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\TrainDescr.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Actor\InfoNumber.h">
+      <Filter>Source Files\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Actor\Commutator_Arrow.h">
+      <Filter>Source Files\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\TrainCharacteristics.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\TrainEditInfoCode.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\TrainNumber.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\TrainSpecialNotes.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\Element.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\UnknownAttributs.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Actor\UnderLimit.h">
+      <Filter>Source Files\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\LOSRoute.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\LogicStrip.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Actor\Latch_LOSHead.h">
+      <Filter>Source Files\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\LogicRoute.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\LinkCmd.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\RouteElementState.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\Crew.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\Locomotive.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\RouteElementEvent.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\Serialization.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\LocoCharacteristics.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\DuePath.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\HemTabInfo.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\StateReporter.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\Informator.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\TopologyDecl.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\RackLTS.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\ADProperties.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\CustomMode.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\LObjectManager.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SenseOfXml\SenseOfXml.h">
+      <Filter>Source Files\SenseOfXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\LogicDocument.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\ILogic.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\WeightNorms.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\RelayCenter.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Hem\RegulatoryTypes.h">
+      <Filter>Source Files\Hem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\LogicRelay.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\LXMLWrapper.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GUI\GuiMarkStaticInfo.h">
+      <Filter>Source Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\XMLWrapper.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\StationManager.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\ObsoleteLoader.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\LObjectKeeper.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Hem\Carrier.h">
+      <Filter>Source Files\Hem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SenseOfXml\SenseOfXml_Fund.h">
+      <Filter>Source Files\SenseOfXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Hem\Platforms.h">
+      <Filter>Source Files\Hem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SenseOfXml\Outlet.h">
+      <Filter>Source Files\SenseOfXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\Comparators.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\RegionDescription.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Hem\Filer.h">
+      <Filter>Source Files\Hem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Hem\RegulatoryXml.h">
+      <Filter>Source Files\Hem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\WaysLocks.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\AcceptorsBank.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\ActorConnection.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\Canopy.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\SpanLockType.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\WorkHours.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\ActorGateway.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\ArchivistGateway.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\Valet.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\ActorGatewayTu.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\ValetsRoom.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\Dictum_Gui.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Hem\Demand.h">
+      <Filter>Source Files\Hem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Permission\ActorPermit.h">
+      <Filter>Source Files\Permission</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\HemCommandRight.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\LimitCore.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Permission\PermissionDesignated.h">
+      <Filter>Source Files\Permission</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\AramisNotify.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Hem\HLog.h">
+      <Filter>Source Files\Hem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Hem\XmlStrConst.h">
+      <Filter>Source Files\Hem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\Archivist.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\LogStream.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\ExtId.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\ExcerptLot.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\LogExtensions.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\BisK.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\GidUraler.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\rwCoord.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\rwInterval.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\Kts_Support.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\LimitDetail.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\SpanLine.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\RackWarning.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\RackWindow.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\RestrictSpeed.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\ExcerptWindow.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\RibSet.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TeleControl\KeyAccumulator.h">
+      <Filter>Source Files\TeleControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\LogCleaner.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\RomanNumber.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\GuessGateway.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\LogicCommand.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\TimeExtIdContainer.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\FundConfig.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TeleControl\StationControl.h">
+      <Filter>Source Files\TeleControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Guess\GLog.h">
+      <Filter>Source Files\Guess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TeleControl\RegionControl.h">
+      <Filter>Source Files\TeleControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\PosterBreath.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\PosterShop.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\TuRack.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\PosterSubst.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\FlowingChanges.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\PosterBan.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\LDocBundle.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\Interval_Time_t.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\DistrictGuide.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\basic_defs.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\ForbidDetail.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\EsrGuide.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\Lexicon.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\PicketingInfo.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\BbxConst.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\MoveHelpSystem.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\Oddness.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\Cons.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\LogicFigure.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\LogicHead.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\LogicSwitch.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\LogicSemaleg.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\stream_Badge.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\F2A_BbxOption.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\LacunaInfo.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\LowLockQueue.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\SpanTravelTime.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\TimeMachine.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\StatWorkModeGuide.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\ExcerptWarning.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\Dictum_Const.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\EsrReplacer.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\DllPlug.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\Span.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\TerminalParkWayContent.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\LogicJoint.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\ControlMode.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\NsiBasis.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\LRUCache.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\SynonymsResolver.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Hem\HemHelpful.h">
+      <Filter>Source Files\Hem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Hem\HemEventRegistry.h">
+      <Filter>Source Files\Hem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Hem\SpotEvent.h">
+      <Filter>Source Files\Hem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\LinkManager.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Hem\HemEvent.h">
+      <Filter>Source Files\Hem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\TechnicalTime.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\TrainUIC\Atn_Tool.h">
+      <Filter>Source Files\Fund\TrainUIC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\TrainUIC\EbiLock_Types.h">
+      <Filter>Source Files\Fund\TrainUIC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\TrainUIC\EbiLock_ObjMap.h">
+      <Filter>Source Files\Fund\TrainUIC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\RoadKit.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\RoadCode.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\TrainUIC\EbiLock_UOK.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\GLinkInfo.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\SpanKit.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\GraphicElement.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\Geo.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\LLoadResult.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Haron\HaronMem.h">
+      <Filter>Source Files\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\FileId.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="TC_Pilgrim.h">
+      <Filter>TestCase</Filter>
+    </ClInclude>
+    <ClInclude Include="TC_Canopy_Filer.h">
+      <Filter>TestCase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\FileLocking.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\TrainUIC\Atn_Pool.h">
+      <Filter>Source Files\Fund\TrainUIC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\Foreign_Parser.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\Foreign_Utils.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\ExcerptTricolor.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\FundTuRack.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\PipeAction.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\PipeQueue.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\TrainPlacesReview.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TeleControl\HintRoute.h">
+      <Filter>Source Files\TeleControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\LogicSpanWay.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\Editor.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\GraphicPool.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\Companion.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\LogicFundDocument.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\RailroadClassifier.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\ClassifyGraph.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="TC_ActorPermit.h">
+      <Filter>TestCase</Filter>
+    </ClInclude>
+    <ClInclude Include="Parody.h">
+      <Filter>TestCase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\LogicElementFactory.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\LogicAutoblocking.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\LogicCommutator.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\LogicBoard.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\LogicCrossing.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\LogicLandscape.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="TC_Archivist.h">
+      <Filter>TestCase</Filter>
+    </ClInclude>
+    <ClInclude Include="UtHelpfulBlackBox.h">
+      <Filter>TestCase</Filter>
+    </ClInclude>
+    <ClInclude Include="UtGateway.h">
+      <Filter>TestCase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\FilenameCaseMatch.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="TC_FundKernel.h">
+      <Filter>TestCase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\FundKernel.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\LandSupport.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\LandTrainPlacer.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\BoardsSupport.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\StripsParkwayKit.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\TrainNumLogger.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Hem\UncontrolledStations.h">
+      <Filter>Source Files\Hem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\RegulatoryRecode\RegRecode_Gathering.h">
+      <Filter>Source Files\Fund\RegulatoryRecode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\RegulatoryRecode\RegRecode_Schedule.h">
+      <Filter>Source Files\Fund\RegulatoryRecode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\RegulatoryRecode\RegRecode_Path.h">
+      <Filter>Source Files\Fund\RegulatoryRecode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\RegulatoryRecode\RegRecode_UnzipMs.h">
+      <Filter>Source Files\Fund\RegulatoryRecode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Hem\DailyCalendar.h">
+      <Filter>Source Files\Hem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\RegulatoryRecode\RegRecode_Event.h">
+      <Filter>Source Files\Fund\RegulatoryRecode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\NsiAgent.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Hem\IdentifyCategory.h">
+      <Filter>Source Files\Hem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Actor\HemDraw\NumDiapason.h">
+      <Filter>Source Files\Actor\HemDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Asoup\MessageParseHelper.h">
+      <Filter>Source Files\Asoup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Hem\AsoupBusyInfo.h">
+      <Filter>Source Files\Hem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\PocketPusher.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\BlackSpan.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\FundKernel_If.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\SupplyTrainInfo.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\WeightIndicator.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\InBbxEmitter.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\QueueWithMarker.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\IndirectLosesNotifier.h">
+      <Filter>Source Files\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Actor\TimeWarper.h">
+      <Filter>Source Files\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="UtPlayerCreator.h">
+      <Filter>TestCase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\IEditor.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\DocTraits.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\LogicPool.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\LObjManPool.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\SignalPool.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\PictManPool.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\ManipulationPool.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\RegionManPool.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\SigDocManPool.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\MacroAction.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StatBuilder\Action.h">
+      <Filter>Source Files\StatBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\Gdi_Common.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\Gdi_Linux.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\GdiPlusH.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\DumpSupport.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Asoup\AttributeHandler.h">
+      <Filter>Source Files\Asoup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\WorkDirectorySaver.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Asoup\StringReader.h">
+      <Filter>Source Files\Asoup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Asoup\ParseException.h">
+      <Filter>Source Files\Asoup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Asoup\Message.h">
+      <Filter>Source Files\Asoup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Asoup\OperationCodes.h">
+      <Filter>Source Files\Asoup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fund\UralParser\StripShot.h">
+      <Filter>Source Files\Fund\UralParser</Filter>
+    </ClInclude>
+    <ClInclude Include="TC_Log.h">
+      <Filter>TestCase</Filter>
+    </ClInclude>
+    <ClInclude Include="TC_LogCleaner.h">
+      <Filter>TestCase</Filter>
+    </ClInclude>
+    <ClInclude Include="TC_Haron_AbcLoader.h">
+      <Filter>TestCase\Haron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\Journal.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helpful\JournalGuide.h">
+      <Filter>Source Files\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="TC_AramisNotify.h">
+      <Filter>TestCase\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="TC_Journal.h">
+      <Filter>TestCase\helpful</Filter>
+    </ClInclude>
+    <ClInclude Include="TC_Aileron.h">
+      <Filter>TestCase\Fund</Filter>
+    </ClInclude>
+    <ClInclude Include="TC_Badge.h">
+      <Filter>TestCase\helpful</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\AdoptTools\Sentinel_HASP\C\Linux\libhasp_linux_x86_64_10529.a">
+      <Filter>AdoptTools\Sentinel_HASP</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

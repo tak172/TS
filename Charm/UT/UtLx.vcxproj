@@ -1,0 +1,1205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{603cd3b1-eef3-435d-950a-921a2958acaa}</ProjectGuid>
+    <Keyword>Linux</Keyword>
+    <RootNamespace>linuxUT</RootNamespace>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <ApplicationType>Linux</ApplicationType>
+    <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
+    <TargetLinuxPlatform>Generic</TargetLinuxPlatform>
+    <LinuxProjectType>{D51BCBC9-82E9-4017-911E-C93873C4EA2B}</LinuxProjectType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(RemoteDeployDir);$(RemoteDeployDir)/AdoptTools;$(RemoteDeployDir)/Charm/UT;$(IncludePath)</IncludePath>
+    <MultiProcNumber>4</MultiProcNumber>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <MultiProcNumber>4</MultiProcNumber>
+    <IncludePath>$(RemoteDeployDir);$(RemoteDeployDir)/AdoptTools;$(RemoteDeployDir)/Charm/UT;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <MultiProcNumber>4</MultiProcNumber>
+    <IncludePath>$(RemoteDeployDir);$(RemoteDeployDir)/AdoptTools;$(RemoteDeployDir)/Charm/UT;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <MultiProcNumber>4</MultiProcNumber>
+    <IncludePath>$(RemoteDeployDir);$(RemoteDeployDir)/AdoptTools;$(RemoteDeployDir)/Charm/UT;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\AdoptTools\CppUnit\src\cppunit\AdditionalMessage.cpp" />
+    <ClCompile Include="..\..\AdoptTools\CppUnit\src\cppunit\Asserter.cpp" />
+    <ClCompile Include="..\..\AdoptTools\CppUnit\src\cppunit\CompilerOutputter.cpp" />
+    <ClCompile Include="..\..\AdoptTools\CppUnit\src\cppunit\DefaultProtector.cpp" />
+    <ClCompile Include="..\..\AdoptTools\CppUnit\src\cppunit\Exception.cpp" />
+    <ClCompile Include="..\..\AdoptTools\CppUnit\src\cppunit\Message.cpp" />
+    <ClCompile Include="..\..\AdoptTools\CppUnit\src\cppunit\Protector.cpp" />
+    <ClCompile Include="..\..\AdoptTools\CppUnit\src\cppunit\ProtectorChain.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\algebra.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\algparam.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\allocate.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\asn.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\basecode.cpp">
+      <CAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-pointer-sign;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable;%(CAdditionalWarning)</CAdditionalWarning>
+      <CppAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CppAdditionalWarning>
+      <CAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Release|x86'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-pointer-sign;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable;%(CAdditionalWarning)</CAdditionalWarning>
+      <CppAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Release|x86'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CppAdditionalWarning>
+      <CAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-pointer-sign;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable;%(CAdditionalWarning)</CAdditionalWarning>
+      <CppAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CppAdditionalWarning>
+      <CAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Release|x64'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-pointer-sign;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable;%(CAdditionalWarning)</CAdditionalWarning>
+      <CppAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Release|x64'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CppAdditionalWarning>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\cpu.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\cryptlib.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\des.cpp">
+      <CAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-pointer-sign;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CAdditionalWarning>
+      <CppAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CppAdditionalWarning>
+      <CAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Release|x86'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-pointer-sign;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CAdditionalWarning>
+      <CppAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Release|x86'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CppAdditionalWarning>
+      <CAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-pointer-sign;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CAdditionalWarning>
+      <CppAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CppAdditionalWarning>
+      <CAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Release|x64'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-pointer-sign;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CAdditionalWarning>
+      <CppAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Release|x64'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CppAdditionalWarning>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\dessp.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\dll.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\ec2n.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\eccrypto.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\ecp.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\eprecomp.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\filters.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\fips140.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\gf2n.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\gf2n_simd.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\gfpcrypt.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\hex.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\hmac.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\hrtimer.cpp">
+      <CAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-pointer-sign;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CAdditionalWarning>
+      <CppAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CppAdditionalWarning>
+      <CAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Release|x86'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-pointer-sign;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CAdditionalWarning>
+      <CppAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Release|x86'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CppAdditionalWarning>
+      <CAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-pointer-sign;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CAdditionalWarning>
+      <CppAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CppAdditionalWarning>
+      <CAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Release|x64'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-pointer-sign;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CAdditionalWarning>
+      <CppAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Release|x64'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CppAdditionalWarning>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\integer.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\iterhash.cpp">
+      <CAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-pointer-sign;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CAdditionalWarning>
+      <CppAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CppAdditionalWarning>
+      <CAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Release|x86'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-pointer-sign;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CAdditionalWarning>
+      <CppAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Release|x86'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CppAdditionalWarning>
+      <CAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-pointer-sign;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CAdditionalWarning>
+      <CppAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CppAdditionalWarning>
+      <CAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Release|x64'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-pointer-sign;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CAdditionalWarning>
+      <CppAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Release|x64'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CppAdditionalWarning>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\keccak.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\keccak_core.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\misc.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\modes.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\mqueue.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\nbtheory.cpp">
+      <CAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-pointer-sign;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CAdditionalWarning>
+      <CppAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CppAdditionalWarning>
+      <CAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Release|x86'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-pointer-sign;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CAdditionalWarning>
+      <CppAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Release|x86'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CppAdditionalWarning>
+      <CAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-pointer-sign;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CAdditionalWarning>
+      <CppAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CppAdditionalWarning>
+      <CAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Release|x64'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-pointer-sign;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CAdditionalWarning>
+      <CppAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Release|x64'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CppAdditionalWarning>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\oaep.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\osrng.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\pkcspad.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\pssr.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\pubkey.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\queue.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\randpool.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\rdtables.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\rijndael.cpp">
+      <CAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-pointer-sign;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CAdditionalWarning>
+      <CppAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CppAdditionalWarning>
+      <CAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Release|x86'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-pointer-sign;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CAdditionalWarning>
+      <CppAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Release|x86'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CppAdditionalWarning>
+      <CAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-pointer-sign;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CAdditionalWarning>
+      <CppAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CppAdditionalWarning>
+      <CAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Release|x64'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-pointer-sign;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CAdditionalWarning>
+      <CppAdditionalWarning Condition="'$(Configuration)|$(Platform)'=='Release|x64'">switch;no-deprecated-declarations;empty-body;return-type;parentheses;no-format;uninitialized;unreachable-code;unused-function;unused-value;unused-variable</CppAdditionalWarning>
+    </ClCompile>
+    <ClCompile Include="..\..\AdoptTools\cryptopp\rijndael_simd.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\rng.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\rsa.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\sha.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\sha3.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\sse_simd.cpp" />
+    <ClCompile Include="..\..\AdoptTools\cryptopp\strciphr.cpp" />
+    <ClCompile Include="..\..\AdoptTools\LZ4\lz4.c" />
+    <ClCompile Include="..\..\AdoptTools\NeoSmart\pevents.cpp" />
+    <ClCompile Include="..\..\AdoptTools\PugiXML\pugixml.cpp" />
+    <ClCompile Include="..\Actor\ActorPeakMemory.cpp" />
+    <ClCompile Include="..\Actor\AnnexFormatter.cpp" />
+    <ClCompile Include="..\Actor\Blinker.cpp" />
+    <ClCompile Include="..\Actor\CarCharacteristics.cpp" />
+    <ClCompile Include="..\Actor\Commutator_Arrow.cpp" />
+    <ClCompile Include="..\Actor\EventReadWriter.cpp" />
+    <ClCompile Include="..\Actor\HemDraw\AccreditEsr.cpp" />
+    <ClCompile Include="..\Actor\HemDraw\AliasName.cpp" />
+    <ClCompile Include="..\Actor\HemDraw\AnalyseEvents.cpp" />
+    <ClCompile Include="..\Actor\HemDraw\AsoupSignal.cpp" />
+    <ClCompile Include="..\Actor\HemDraw\CategoryTree.cpp" />
+    <ClCompile Include="..\Actor\HemDraw\DcdEsdList.cpp" />
+    <ClCompile Include="..\Actor\HemDraw\ExtRect.cpp" />
+    <ClCompile Include="..\Actor\HemDraw\GuiMarkDescription.cpp" />
+    <ClCompile Include="..\Actor\HemDraw\HemEventPoint.cpp" />
+    <ClCompile Include="..\Actor\HemDraw\HemGrid.cpp" />
+    <ClCompile Include="..\Actor\HemDraw\HemMap.cpp" />
+    <ClCompile Include="..\Actor\HemDraw\HemSpanWay.cpp" />
+    <ClCompile Include="..\Actor\HemDraw\HemThemes.cpp" />
+    <ClCompile Include="..\Actor\HemDraw\LayerType.cpp" />
+    <ClCompile Include="..\Actor\HemDraw\LimitDescription.cpp" />
+    <ClCompile Include="..\Actor\HemDraw\LimitReason.cpp" />
+    <ClCompile Include="..\Actor\HemDraw\MarksType.cpp" />
+    <ClCompile Include="..\Actor\HemDraw\Service.cpp" />
+    <ClCompile Include="..\Actor\HemDraw\ServicesType.cpp" />
+    <ClCompile Include="..\Actor\HemDraw\TrainCategory.cpp" />
+    <ClCompile Include="..\Actor\HemDraw\TrainDelayReason.cpp" />
+    <ClCompile Include="..\Actor\HemDraw\WndActorHemParams.cpp" />
+    <ClCompile Include="..\Actor\InfoNumber.cpp" />
+    <ClCompile Include="..\Actor\Latch_LOSHead.cpp" />
+    <ClCompile Include="..\Actor\LOSBase.cpp" />
+    <ClCompile Include="..\Actor\LOSBoard.cpp" />
+    <ClCompile Include="..\Actor\LOSCommutator.cpp" />
+    <ClCompile Include="..\Actor\LOSFigure.cpp" />
+    <ClCompile Include="..\Actor\LOSHead.cpp" />
+    <ClCompile Include="..\Actor\LOSHtmlText.cpp" />
+    <ClCompile Include="..\Actor\LOSLandscape.cpp" />
+    <ClCompile Include="..\Actor\LOSStrip.cpp" />
+    <ClCompile Include="..\Actor\LOSSwitch.cpp" />
+    <ClCompile Include="..\Actor\LOSText.cpp" />
+    <ClCompile Include="..\Actor\PaletteDesigner.cpp" />
+    <ClCompile Include="..\Actor\PosterParade.cpp" />
+    <ClCompile Include="..\Actor\TrainOperations.cpp" />
+    <ClCompile Include="..\Actor\UnderLimit.cpp" />
+    <ClCompile Include="..\BlackBox\bbx_BlackBox.cpp" />
+    <ClCompile Include="..\BlackBox\bbx_Extension.cpp" />
+    <ClCompile Include="..\BlackBox\bbx_File.cpp" />
+    <ClCompile Include="..\BlackBox\bbx_FileChain.cpp" />
+    <ClCompile Include="..\BlackBox\bbx_FileReader.cpp" />
+    <ClCompile Include="..\BlackBox\bbx_Identifier.cpp" />
+    <ClCompile Include="..\BlackBox\bbx_Location.cpp" />
+    <ClCompile Include="..\BlackBox\bbx_Page.cpp" />
+    <ClCompile Include="..\BlackBox\bbx_Reader.cpp" />
+    <ClCompile Include="..\BlackBox\bbx_Record.cpp" />
+    <ClCompile Include="..\BlackBox\bbx_Writer.cpp" />
+    <ClCompile Include="..\Docker\dk_connection.cpp" />
+    <ClCompile Include="..\Docker\dk_connectionsmanager.cpp" />
+    <ClCompile Include="..\Docker\dk_docker.cpp" />
+    <ClCompile Include="..\Docker\dk_identifier.cpp" />
+    <ClCompile Include="..\Docker\dk_message.cpp" />
+    <ClCompile Include="..\Docker\TcpStates\dk_tcpclosed.cpp" />
+    <ClCompile Include="..\Docker\TcpStates\dk_tcpconnecting.cpp" />
+    <ClCompile Include="..\Docker\TcpStates\dk_tcpdestroy.cpp" />
+    <ClCompile Include="..\Docker\TcpStates\dk_tcpestablished.cpp" />
+    <ClCompile Include="..\Docker\TcpStates\dk_tcplistening.cpp" />
+    <ClCompile Include="..\Docker\TcpStates\dk_tcpresolving.cpp" />
+    <ClCompile Include="..\Docker\TcpStates\dk_tcpstate.cpp" />
+    <ClCompile Include="..\Fund\Archivist.cpp" />
+    <ClCompile Include="..\Fund\ArchivistGateway.cpp" />
+    <ClCompile Include="..\Fund\GidUraler.cpp" />
+    <ClCompile Include="..\Fund\LacunaInfo.cpp" />
+    <ClCompile Include="..\Fund\Lexicon.cpp" />
+    <ClCompile Include="..\Fund\LOSRoute.cpp" />
+    <ClCompile Include="..\Fund\PipeQueue.cpp" />
+    <ClCompile Include="..\Fund\PosterShop.cpp" />
+    <ClCompile Include="..\Fund\RackWarning.cpp" />
+    <ClCompile Include="..\Fund\RackWindow.cpp" />
+    <ClCompile Include="..\Fund\TimeExtIdContainer.cpp" />
+    <ClCompile Include="..\Fund\TimeMachine.cpp" />
+    <ClCompile Include="..\Fund\UralParser\StripShot.cpp" />
+    <ClCompile Include="..\Guess\AnalyseResult.cpp" />
+    <ClCompile Include="..\Guess\ArrdepKit.cpp" />
+    <ClCompile Include="..\Guess\ArrdepWaysGenerator.cpp" />
+    <ClCompile Include="..\Guess\BlockpostKit.cpp" />
+    <ClCompile Include="..\Guess\BlockpostsGenerator.cpp" />
+    <ClCompile Include="..\Guess\Chain.cpp" />
+    <ClCompile Include="..\Guess\ChainAnalyst.cpp" />
+    <ClCompile Include="..\Guess\ChainContainer.cpp" />
+    <ClCompile Include="..\Guess\ChainsBuilder.cpp" />
+    <ClCompile Include="..\Guess\ChainScanner.cpp" />
+    <ClCompile Include="..\Guess\ChangesRecordService.cpp" />
+    <ClCompile Include="..\Guess\ClutchesGenerator.cpp" />
+    <ClCompile Include="..\Guess\ClutchKit.cpp" />
+    <ClCompile Include="..\Guess\DeletionChangeInspector.cpp" />
+    <ClCompile Include="..\Guess\DislocationDelays.cpp" />
+    <ClCompile Include="..\Guess\DraftEvent.cpp" />
+    <ClCompile Include="..\Guess\EventContainer.cpp" />
+    <ClCompile Include="..\Guess\EventsGenerator.cpp" />
+    <ClCompile Include="..\Guess\FieldGraph.cpp" />
+    <ClCompile Include="..\Guess\GLog.cpp" />
+    <ClCompile Include="..\Guess\HeadKit.cpp" />
+    <ClCompile Include="..\Guess\InchainBasicOccupationsMaker.cpp" />
+    <ClCompile Include="..\Guess\InchainRecoveriesMaker.cpp" />
+    <ClCompile Include="..\Guess\InchainRemainingResultsMaker.cpp" />
+    <ClCompile Include="..\Guess\InchainUnityMerger.cpp" />
+    <ClCompile Include="..\Guess\InchainUnitySplitter.cpp" />
+    <ClCompile Include="..\Guess\InchainUnityTransmuter.cpp" />
+    <ClCompile Include="..\Guess\InfoEventsGenerator.cpp" />
+    <ClCompile Include="..\Guess\IntentionSorter.cpp" />
+    <ClCompile Include="..\Guess\InterchainsMigrationAnalyst.cpp" />
+    <ClCompile Include="..\Guess\JointSupport.cpp" />
+    <ClCompile Include="..\Guess\LosAnalyst.cpp" />
+    <ClCompile Include="..\Guess\LosInfoKeeper.cpp" />
+    <ClCompile Include="..\Guess\MementoRecoveryService.cpp" />
+    <ClCompile Include="..\Guess\MotionForecastService.cpp" />
+    <ClCompile Include="..\Guess\MotionMap.cpp" />
+    <ClCompile Include="..\Guess\ObjectStates.cpp" />
+    <ClCompile Include="..\Guess\Pathfinder.cpp" />
+    <ClCompile Include="..\Guess\Pocket.cpp" />
+    <ClCompile Include="..\Guess\PocketKeeper.cpp" />
+    <ClCompile Include="..\Guess\PocketService.cpp" />
+    <ClCompile Include="..\Guess\PocketsGenerator.cpp" />
+    <ClCompile Include="..\Guess\PriorityChainSolver.cpp" />
+    <ClCompile Include="..\Guess\RecoveryAnalyst.cpp" />
+    <ClCompile Include="..\Guess\RouteKit.cpp" />
+    <ClCompile Include="..\Guess\SemaStoppingMonitor.cpp" />
+    <ClCompile Include="..\Guess\SeniorAnalyst.cpp" />
+    <ClCompile Include="..\Guess\SmartChain.cpp" />
+    <ClCompile Include="..\Guess\SmartChainHelpFunc.cpp" />
+    <ClCompile Include="..\Guess\SpanNoInfoEventsGenerator.cpp" />
+    <ClCompile Include="..\Guess\SpansCollection.cpp" />
+    <ClCompile Include="..\Guess\SpanStoppingMonitor.cpp" />
+    <ClCompile Include="..\Guess\SpotDetails.cpp" />
+    <ClCompile Include="..\Guess\StationNoInfoEventsGenerator.cpp" />
+    <ClCompile Include="..\Guess\SwitchSections.cpp" />
+    <ClCompile Include="..\Guess\Tracker.cpp" />
+    <ClCompile Include="..\Guess\TrackerEvent.cpp" />
+    <ClCompile Include="..\Guess\TrackTime.cpp" />
+    <ClCompile Include="..\Guess\TrafficService.cpp" />
+    <ClCompile Include="..\Guess\TrainAnalyst.cpp" />
+    <ClCompile Include="..\Guess\TrainChanges.cpp" />
+    <ClCompile Include="..\Guess\TrainContainer.cpp" />
+    <ClCompile Include="..\Guess\TrainField.cpp" />
+    <ClCompile Include="..\Guess\TrainHistory.cpp" />
+    <ClCompile Include="..\Guess\TrainInfoAssigner.cpp" />
+    <ClCompile Include="..\Guess\TrainRecoveryService.cpp" />
+    <ClCompile Include="..\Guess\TrainUnity.cpp" />
+    <ClCompile Include="..\Guess\TrainUnityTargetExplorer.cpp" />
+    <ClCompile Include="..\Guess\UnitiesModifier.cpp" />
+    <ClCompile Include="..\Guess\VanishAnalyst.cpp" />
+    <ClCompile Include="..\GUI\GuiColor.cpp" />
+    <ClCompile Include="..\GUI\GuiMarkClassificator.cpp" />
+    <ClCompile Include="..\GUI\GuiMarkStaticInfo.cpp" />
+    <ClCompile Include="..\GUI\GuiMarkTextClassificator.cpp" />
+    <ClCompile Include="..\GUI\InfoTypesClassificator.cpp" />
+    <ClCompile Include="..\Haron\HaronAbcLoader.cpp" />
+    <ClCompile Include="..\Haron\HaronChanelCfg.cpp" />
+    <ClCompile Include="..\Haron\HaronChannelInfo.cpp" />
+    <ClCompile Include="..\Haron\HaronCommandos.cpp" />
+    <ClCompile Include="..\Haron\HaronCore.cpp" />
+    <ClCompile Include="..\Haron\HaronFlatAddressSpace.cpp" />
+    <ClCompile Include="..\Haron\HaronKitMessage.cpp" />
+    <ClCompile Include="..\Haron\HaronKitRelayClnt.cpp" />
+    <ClCompile Include="..\Haron\HaronKitRelaySrv.cpp" />
+    <ClCompile Include="..\Haron\HaronLive.cpp" />
+    <ClCompile Include="..\Haron\HaronMgrIO.cpp" />
+    <ClCompile Include="..\Haron\HaronMgrRelator.cpp" />
+    <ClCompile Include="..\Haron\HaronRelay.cpp" />
+    <ClCompile Include="..\Haron\HaronStrongPoint.cpp" />
+    <ClCompile Include="..\Haron\HaronTime.cpp" />
+    <ClCompile Include="..\Haron\HaronTransform.cpp" />
+    <ClCompile Include="..\Haron\HaronUralGate.cpp" />
+    <ClCompile Include="..\Haron\HaronWatchdog.cpp" />
+    <ClCompile Include="..\Haron\HaronWatchdogAction.cpp" />
+    <ClCompile Include="..\Haron\Irq_desc.cpp" />
+    <ClCompile Include="..\Haron\Kts.cpp" />
+    <ClCompile Include="..\Haron\LgSubclause.cpp" />
+    <ClCompile Include="..\Haron\PrintByteSequence.cpp" />
+    <ClCompile Include="..\Haron\RestrictIp.cpp" />
+    <ClCompile Include="..\Haron\SocketAddress.cpp" />
+    <ClCompile Include="..\Haron\tncb.cpp" />
+    <ClCompile Include="..\Haron\UARTDatagramSocket.cpp" />
+    <ClCompile Include="..\Haron\UARTSocket.cpp" />
+    <ClCompile Include="..\Haron\UARTStreamSocket.cpp" />
+    <ClCompile Include="..\Haron\Uart_CardDsp.cpp" />
+    <ClCompile Include="..\Haron\Uart_Clue.cpp" />
+    <ClCompile Include="..\Haron\uart_dbg.cpp" />
+    <ClCompile Include="..\Haron\uart_dc.cpp" />
+    <ClCompile Include="..\Haron\uart_dc_Asoup.cpp" />
+    <ClCompile Include="..\Haron\uart_dc_def.cpp" />
+    <ClCompile Include="..\Haron\Uart_Dc_Dialog.cpp" />
+    <ClCompile Include="..\Haron\uart_DC_EbiLock.cpp" />
+    <ClCompile Include="..\Haron\uart_dc_GuXml.cpp" />
+    <ClCompile Include="..\Haron\uart_dc_kit.cpp" />
+    <ClCompile Include="..\Haron\uart_dc_MultiDSS.cpp" />
+    <ClCompile Include="..\Haron\Uart_Dc_Neman.cpp" />
+    <ClCompile Include="..\Haron\uart_dc_neva.cpp" />
+    <ClCompile Include="..\Haron\uart_dc_PASS.cpp" />
+    <ClCompile Include="..\Haron\uart_dc_postxml.cpp" />
+    <ClCompile Include="..\Haron\uart_dc_tk.cpp" />
+    <ClCompile Include="..\Haron\uart_DC_TrainUIC.cpp" />
+    <ClCompile Include="..\Haron\uart_dc_trakt.cpp" />
+    <ClCompile Include="..\Haron\UART_EbiLock_Message.cpp" />
+    <ClCompile Include="..\Haron\Uart_Glp.cpp" />
+    <ClCompile Include="..\Haron\Uart_hrd.cpp" />
+    <ClCompile Include="..\Haron\UART_IoQ.cpp" />
+    <ClCompile Include="..\Haron\UART_MultiDSS_Message.cpp" />
+    <ClCompile Include="..\Haron\uart_Skt.cpp" />
+    <ClCompile Include="..\Haron\UART_TH.CPP" />
+    <ClCompile Include="..\Haron\uart_th_clnt.cpp" />
+    <ClCompile Include="..\Haron\uart_th_srv.cpp" />
+    <ClCompile Include="..\Haron\Uart_Th_Stub.cpp" />
+    <ClCompile Include="..\Haron\Uart_Th_WholeFiles.CPP" />
+    <ClCompile Include="..\Haron\UART_TrainUIC_Message.cpp" />
+    <ClCompile Include="..\Haron\Uart_VecText.cpp" />
+    <ClCompile Include="..\helpful\AcceptanceInfo.cpp" />
+    <ClCompile Include="..\helpful\AssertHandler.cpp" />
+    <ClCompile Include="..\helpful\Attic.cpp" />
+    <ClCompile Include="..\helpful\Badge.cpp" />
+    <ClCompile Include="..\helpful\Bypass.cpp" />
+    <ClCompile Include="..\helpful\ConjugateWaysLimit.cpp" />
+    <ClCompile Include="..\helpful\Crew.cpp" />
+    <ClCompile Include="..\helpful\CustomMode.cpp" />
+    <ClCompile Include="..\helpful\Dictum.cpp" />
+    <ClCompile Include="..\helpful\DigitalSigner.cpp" />
+    <ClCompile Include="..\helpful\DistrictGuide.cpp" />
+    <ClCompile Include="..\helpful\DuePath.cpp" />
+    <ClCompile Include="..\helpful\ErrorHandler.cpp" />
+    <ClCompile Include="..\helpful\EsrGuide.cpp" />
+    <ClCompile Include="..\helpful\EsrKit.cpp" />
+    <ClCompile Include="..\helpful\ExceptionTracer.cpp" />
+    <ClCompile Include="..\helpful\ExcerptLot.cpp" />
+    <ClCompile Include="..\helpful\ExtId.cpp" />
+    <ClCompile Include="..\helpful\FilesByMask.cpp" />
+    <ClCompile Include="..\helpful\FilesOpepations.cpp" />
+    <ClCompile Include="..\helpful\ForbidDetail.cpp" />
+    <ClCompile Include="..\helpful\FotoFinish.cpp" />
+    <ClCompile Include="..\helpful\FotoMemory.cpp" />
+    <ClCompile Include="..\helpful\GidUralClassificator.cpp" />
+    <ClCompile Include="..\helpful\GidUralDecl.cpp" />
+    <ClCompile Include="..\helpful\GriffinMessage.cpp" />
+    <ClCompile Include="..\helpful\HemCommandRight.cpp" />
+    <ClCompile Include="..\helpful\HemTabInfo.cpp" />
+    <ClCompile Include="..\helpful\Informator.cpp" />
+    <ClCompile Include="..\helpful\Interval_Time_t.cpp" />
+    <ClCompile Include="..\helpful\Junctions.cpp" />
+    <ClCompile Include="..\helpful\LimitCore.cpp" />
+    <ClCompile Include="..\helpful\LimitDetail.cpp" />
+    <ClCompile Include="..\helpful\LimitTrain.cpp" />
+    <ClCompile Include="..\helpful\LocoCharacteristics.cpp" />
+    <ClCompile Include="..\helpful\Locomotive.cpp" />
+    <ClCompile Include="..\helpful\Log.cpp" />
+    <ClCompile Include="..\helpful\LogCleaner.cpp" />
+    <ClCompile Include="..\helpful\LogStream.cpp" />
+    <ClCompile Include="..\helpful\MoveHelpSystem.cpp" />
+    <ClCompile Include="..\helpful\MovingLaws.cpp" />
+    <ClCompile Include="..\helpful\PicketingInfo.cpp" />
+    <ClCompile Include="..\helpful\Pilgrim.cpp" />
+    <ClCompile Include="..\helpful\PrognosisFeedback.cpp" />
+    <ClCompile Include="..\helpful\RailroadClassifier.cpp" />
+    <ClCompile Include="..\helpful\RestrictSpeed.cpp" />
+    <ClCompile Include="..\helpful\RoadCode.cpp" />
+    <ClCompile Include="..\helpful\RoadKit.cpp" />
+    <ClCompile Include="..\helpful\RomanNumber.cpp" />
+    <ClCompile Include="..\helpful\RSensorsSerializable.cpp" />
+    <ClCompile Include="..\helpful\Rt_Crc32.CPP" />
+    <ClCompile Include="..\helpful\RT_Locale.cpp" />
+    <ClCompile Include="..\helpful\Rt_ThreadName.cpp" />
+    <ClCompile Include="..\helpful\rwCoord.cpp" />
+    <ClCompile Include="..\helpful\rwInterval.cpp" />
+    <ClCompile Include="..\helpful\SpanLockType.cpp" />
+    <ClCompile Include="..\helpful\SpansRegistry.cpp" />
+    <ClCompile Include="..\helpful\SpanTravelTime.cpp" />
+    <ClCompile Include="..\helpful\SpanWayInfo.cpp" />
+    <ClCompile Include="..\helpful\SpanWork.cpp" />
+    <ClCompile Include="..\helpful\StateCollector.cpp" />
+    <ClCompile Include="..\helpful\StationsDigraph.cpp" />
+    <ClCompile Include="..\helpful\StationsNet.cpp" />
+    <ClCompile Include="..\helpful\StrToTime.cpp" />
+    <ClCompile Include="..\helpful\Subpaths.cpp" />
+    <ClCompile Include="..\helpful\Time_Iso.cpp" />
+    <ClCompile Include="..\helpful\TrainCharacteristics.cpp" />
+    <ClCompile Include="..\helpful\TrainDescr.cpp" />
+    <ClCompile Include="..\helpful\TrainSpecialNotes.cpp" />
+    <ClCompile Include="..\helpful\Trindex.cpp" />
+    <ClCompile Include="..\helpful\unicode_str_func.cpp" />
+    <ClCompile Include="..\helpful\Utf8.cpp" />
+    <ClCompile Include="..\helpful\WatchDog.cpp" />
+    <ClCompile Include="..\helpful\WeightNorms.cpp" />
+    <ClCompile Include="..\helpful\Xml_ErrorMessage.cpp" />
+    <ClCompile Include="..\helpful\X_translate.cpp" />
+    <ClCompile Include="..\Hem\DncDspAttendance.cpp" />
+    <ClCompile Include="..\Hem\EventTrio.cpp" />
+    <ClCompile Include="..\Hem\HemChance.cpp" />
+    <ClCompile Include="..\Hem\HemEvent.cpp" />
+    <ClCompile Include="..\Hem\HemEventRegistry.cpp" />
+    <ClCompile Include="..\Hem\ScheduledLayer.cpp" />
+    <ClCompile Include="..\Hem\ScheduledPath.cpp" />
+    <ClCompile Include="..\Hem\SpotEvent.cpp" />
+    <ClCompile Include="..\Hem\SpotToRegulatory.cpp" />
+    <ClCompile Include="..\Permission\ActorPermit.cpp" />
+    <ClCompile Include="..\Rokit\RemoteViewer.cpp" />
+    <ClCompile Include="..\SenseOfXml\Outlet.cpp" />
+    <ClCompile Include="..\SenseOfXml\SenseOfXml.cpp" />
+    <ClCompile Include="..\SenseOfXml\SenseOfXml_Fund.cpp" />
+    <ClCompile Include="..\SenseOfXml\SenseOfXml_Hem.cpp" />
+    <ClCompile Include="..\StatBuilder\additional_func.cpp" />
+    <ClCompile Include="..\StatBuilder\Geo.cpp" />
+    <ClCompile Include="..\StatBuilder\GraphicGrid.cpp" />
+    <ClCompile Include="..\StatBuilder\GraphicView.cpp" />
+    <ClCompile Include="..\StatBuilder\LogicAutoblocking.cpp" />
+    <ClCompile Include="..\StatBuilder\LogicBoard.cpp" />
+    <ClCompile Include="..\StatBuilder\LogicCommand.cpp" />
+    <ClCompile Include="..\StatBuilder\LogicCommutator.cpp" />
+    <ClCompile Include="..\StatBuilder\LogicCrossing.cpp" />
+    <ClCompile Include="..\StatBuilder\LogicDocument.cpp" />
+    <ClCompile Include="..\StatBuilder\LogicElement.cpp" />
+    <ClCompile Include="..\StatBuilder\LogicElementFactory.cpp" />
+    <ClCompile Include="..\StatBuilder\LogicFigure.cpp" />
+    <ClCompile Include="..\StatBuilder\LogicHead.cpp" />
+    <ClCompile Include="..\StatBuilder\LogicJoint.cpp" />
+    <ClCompile Include="..\StatBuilder\LogicLandscape.cpp" />
+    <ClCompile Include="..\StatBuilder\LogicRoute.cpp" />
+    <ClCompile Include="..\StatBuilder\LogicSemaleg.cpp" />
+    <ClCompile Include="..\StatBuilder\LogicStrip.cpp" />
+    <ClCompile Include="..\StatBuilder\LogicSwitch.cpp" />
+    <ClCompile Include="..\StatBuilder\UnknownAttributs.cpp" />
+    <ClCompile Include="..\UT\FictivePart.cpp" />
+    <ClCompile Include="..\UT\GuessNsiBasis.cpp" />
+    <ClCompile Include="..\UT\InfraPart.cpp" />
+    <ClCompile Include="..\UT\Parody.cpp" />
+    <ClCompile Include="..\UT\RealPart.cpp" />
+    <ClCompile Include="..\UT\RT_Progressor.cpp" />
+    <ClCompile Include="..\UT\stdafx.cpp" />
+    <ClCompile Include="..\UT\TC_ActorPeakMemory.cpp" />
+    <ClCompile Include="..\UT\TC_ActorPermit.cpp" />
+    <ClCompile Include="..\UT\TC_Aileron.cpp" />
+    <ClCompile Include="..\UT\TC_Archivist.cpp" />
+    <ClCompile Include="..\UT\TC_ArchivistGate.cpp" />
+    <ClCompile Include="..\UT\TC_Asoup.cpp" />
+    <ClCompile Include="..\UT\TC_Bbx.cpp" />
+    <ClCompile Include="..\UT\TC_CrewLocomotive.cpp" />
+    <ClCompile Include="..\UT\TC_DateTime.cpp" />
+    <ClCompile Include="..\UT\TC_DcdEsdList.cpp" />
+    <ClCompile Include="..\UT\TC_Dictum.cpp" />
+    <ClCompile Include="..\UT\TC_DistrictGuide.cpp" />
+    <ClCompile Include="..\UT\TC_Docker.cpp" />
+    <ClCompile Include="..\UT\TC_Emitter.cpp" />
+    <ClCompile Include="..\UT\TC_ExcerptWarn.cpp" />
+    <ClCompile Include="..\UT\TC_ExcerptWin.cpp" />
+    <ClCompile Include="..\UT\TC_Excerpt_Lot.cpp" />
+    <ClCompile Include="..\UT\TC_FlowingChanges.cpp" />
+    <ClCompile Include="..\UT\TC_Geo.cpp" />
+    <ClCompile Include="..\UT\TC_GidUraler.cpp" />
+    <ClCompile Include="..\UT\TC_HemThemes.cpp" />
+    <ClCompile Include="..\UT\TC_KeyAccumulator.cpp" />
+    <ClCompile Include="..\UT\TC_Lexicon.cpp" />
+    <ClCompile Include="..\UT\TC_LimitReason.cpp" />
+    <ClCompile Include="..\UT\TC_Lts_LogElement.cpp" />
+    <ClCompile Include="..\UT\TC_MarksGuide.cpp" />
+    <ClCompile Include="..\UT\TC_PaletteDesigner.cpp" />
+    <ClCompile Include="..\UT\TC_Pipeline_XmlQueue.cpp" />
+    <ClCompile Include="..\UT\TC_PosterBan.cpp" />
+    <ClCompile Include="..\UT\TC_PosterBreath.cpp" />
+    <ClCompile Include="..\UT\TC_PosterParade.cpp" />
+    <ClCompile Include="..\UT\TC_PosterShop.cpp" />
+    <ClCompile Include="..\UT\TC_RackWarning.cpp" />
+    <ClCompile Include="..\UT\TC_RestrictIp.cpp" />
+    <ClCompile Include="..\UT\TC_Rokit.cpp" />
+    <ClCompile Include="..\UT\TC_ServicesGuide.cpp" />
+    <ClCompile Include="..\UT\TC_ShowCategory.cpp" />
+    <ClCompile Include="..\UT\TC_SourseEventMgr.cpp" />
+    <ClCompile Include="..\UT\TC_SpanTravelTime.cpp" />
+    <ClCompile Include="..\UT\TC_SpotToRegulatory.cpp" />
+    <ClCompile Include="..\UT\TC_StateLTS.cpp" />
+    <ClCompile Include="..\UT\TC_Stream_Badge.cpp" />
+    <ClCompile Include="..\UT\TC_StripShot.cpp" />
+    <ClCompile Include="..\UT\TC_TrainDelayReason.cpp" />
+    <ClCompile Include="..\UT\TC_TrainDescr.cpp" />
+    <ClCompile Include="..\UT\TC_TrainSpecialNotes.cpp" />
+    <ClCompile Include="..\UT\TC_Uart_VecTexting.cpp" />
+    <ClCompile Include="..\UT\TC_UralParser.cpp" />
+    <ClCompile Include="..\UT\TC_Vocal.cpp" />
+    <ClCompile Include="..\UT\TC_WeightIndicator.cpp" />
+    <ClCompile Include="..\UT\TC_WndActorHemParams.cpp" />
+    <ClCompile Include="..\UT\TestSpanKit.cpp" />
+    <ClCompile Include="..\UT\TestTracker.cpp" />
+    <ClCompile Include="..\UT\TrackerInfrastructure.cpp" />
+    <ClCompile Include="..\UT\UtDatagram.cpp" />
+    <ClCompile Include="..\UT\UtGateway.cpp" />
+    <ClCompile Include="..\UT\UtHelpfulBlackBox.cpp" />
+    <ClCompile Include="..\UT\UtHelpfulDateTime.cpp" />
+    <ClCompile Include="..\UT\UtNsiBasis.cpp" />
+    <ClCompile Include="..\UT\UtReadFile.cpp" />
+    <ClCompile Include="..\UT\UtReadResource.cpp" />
+    <ClCompile Include="..\UT\UtTearDown.cpp" />
+    <ClCompile Include="..\UT\UT_Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\AdoptTools\CppUnit\src\cppunit\DefaultProtector.h" />
+    <ClInclude Include="..\..\AdoptTools\CppUnit\src\cppunit\ProtectorChain.h" />
+    <ClInclude Include="..\..\AdoptTools\CppUnit\src\cppunit\ProtectorContext.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\aes.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\algebra.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\algparam.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\allocate.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\argnames.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\asn.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\authenc.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\basecode.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\cbcmac.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\ccm.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\channels.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\cmac.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\config.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\config_align.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\config_asm.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\config_cpu.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\config_cxx.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\config_dll.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\config_int.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\config_misc.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\config_ns.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\config_os.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\config_ver.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\cpu.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\cryptlib.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\des.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\dh.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\dll.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\dsa.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\ec2n.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\eccrypto.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\ecp.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\ecpoint.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\emsa2.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\eprecomp.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\fhmqv.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\files.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\filters.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\fips140.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\fltrimpl.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\gcm.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\gf2n.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\gfpcrypt.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\hashfwd.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\hex.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\hkdf.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\hmac.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\hmqv.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\hrtimer.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\integer.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\iterhash.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\keccak.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\mdc.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\misc.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\modarith.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\modes.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\modexppc.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\mqueue.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\mqv.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\nbtheory.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\oaep.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\oids.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\osrng.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\ossig.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\pch.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\pkcspad.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\pssr.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\pubkey.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\queue.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\randpool.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\rijndael.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\ripemd.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\rng.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\rsa.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\rw.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\secblock.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\secblockfwd.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\seckey.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\sha.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\sha3.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\simple.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\skipjack.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\smartptr.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\stdcpp.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\strciphr.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\trap.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\whrlpool.h" />
+    <ClInclude Include="..\..\AdoptTools\cryptopp\words.h" />
+    <ClInclude Include="..\..\AdoptTools\LZ4\lz4.h" />
+    <ClInclude Include="..\..\AdoptTools\NeoSmart\pevents.h" />
+    <ClInclude Include="..\..\AdoptTools\PugiXML\pugiconfig.hpp" />
+    <ClInclude Include="..\..\AdoptTools\PugiXML\pugixml.hpp" />
+    <ClInclude Include="..\Actor\ActorPeakMemory.h" />
+    <ClInclude Include="..\Actor\AnnexFormatter.h" />
+    <ClInclude Include="..\Actor\Blinker.h" />
+    <ClInclude Include="..\Actor\CarCharacteristics.h" />
+    <ClInclude Include="..\Actor\Commutator_Arrow.h" />
+    <ClInclude Include="..\Actor\EventReadWriter.h" />
+    <ClInclude Include="..\Actor\HemDraw\AliasName.h" />
+    <ClInclude Include="..\Actor\HemDraw\AliasNameGuide.h" />
+    <ClInclude Include="..\Actor\HemDraw\AnalyseEvents.h" />
+    <ClInclude Include="..\Actor\HemDraw\AsoupSignal.h" />
+    <ClInclude Include="..\Actor\HemDraw\AttrMap.h" />
+    <ClInclude Include="..\Actor\HemDraw\CategoryTree.h" />
+    <ClInclude Include="..\Actor\HemDraw\DcdEsdList.h" />
+    <ClInclude Include="..\Actor\HemDraw\DncListCtrl.h" />
+    <ClInclude Include="..\Actor\HemDraw\ExtRect.h" />
+    <ClInclude Include="..\Actor\HemDraw\GuiMarkDescription.h" />
+    <ClInclude Include="..\Actor\HemDraw\HemCmdBase.h" />
+    <ClInclude Include="..\Actor\HemDraw\HemEventPoint.h" />
+    <ClInclude Include="..\Actor\HemDraw\HemGrid.h" />
+    <ClInclude Include="..\Actor\HemDraw\HemMap.h" />
+    <ClInclude Include="..\Actor\HemDraw\HemSpanWay.h" />
+    <ClInclude Include="..\Actor\HemDraw\HemThemes.h" />
+    <ClInclude Include="..\Actor\HemDraw\HemType.h" />
+    <ClInclude Include="..\Actor\HemDraw\LayerType.h" />
+    <ClInclude Include="..\Actor\HemDraw\LimitDescription.h" />
+    <ClInclude Include="..\Actor\HemDraw\LimitReason.h" />
+    <ClInclude Include="..\Actor\HemDraw\LinePattern.h" />
+    <ClInclude Include="..\Actor\HemDraw\MarksType.h" />
+    <ClInclude Include="..\Actor\HemDraw\Service.h" />
+    <ClInclude Include="..\Actor\HemDraw\ServicesType.h" />
+    <ClInclude Include="..\Actor\HemDraw\TrainCategory.h" />
+    <ClInclude Include="..\Actor\HemDraw\TrainDelayReason.h" />
+    <ClInclude Include="..\Actor\HemDraw\WndActorHemParams.h" />
+    <ClInclude Include="..\Actor\InfoNumber.h" />
+    <ClInclude Include="..\Actor\Latch_LOSHead.h" />
+    <ClInclude Include="..\Actor\LOSBase.h" />
+    <ClInclude Include="..\Actor\LOSBoard.h" />
+    <ClInclude Include="..\Actor\LOSCommutator.h" />
+    <ClInclude Include="..\Actor\LOSFigure.h" />
+    <ClInclude Include="..\Actor\LOSHead.h" />
+    <ClInclude Include="..\Actor\LOSHtmlText.h" />
+    <ClInclude Include="..\Actor\LOSLandscape.h" />
+    <ClInclude Include="..\Actor\LOSStrip.h" />
+    <ClInclude Include="..\Actor\LOSSwitch.h" />
+    <ClInclude Include="..\Actor\LOSText.h" />
+    <ClInclude Include="..\Actor\LOSVoid.h" />
+    <ClInclude Include="..\Actor\PaletteDesigner.h" />
+    <ClInclude Include="..\Actor\PosterParade.h" />
+    <ClInclude Include="..\Actor\TrainOperations.h" />
+    <ClInclude Include="..\Actor\UnderLimit.h" />
+    <ClInclude Include="..\Asoup\Message.h" />
+    <ClInclude Include="..\BlackBox\bbx_BlackBox.h" />
+    <ClInclude Include="..\BlackBox\bbx_BlockingPtrQueue.h" />
+    <ClInclude Include="..\BlackBox\bbx_Extension.h" />
+    <ClInclude Include="..\BlackBox\bbx_File.h" />
+    <ClInclude Include="..\BlackBox\bbx_FileChain.h" />
+    <ClInclude Include="..\BlackBox\bbx_FileId.h" />
+    <ClInclude Include="..\BlackBox\bbx_FileReader.h" />
+    <ClInclude Include="..\BlackBox\bbx_Identifier.h" />
+    <ClInclude Include="..\BlackBox\bbx_Location.h" />
+    <ClInclude Include="..\BlackBox\bbx_Page.h" />
+    <ClInclude Include="..\BlackBox\bbx_PartHeader.h" />
+    <ClInclude Include="..\BlackBox\bbx_Reader.h" />
+    <ClInclude Include="..\BlackBox\bbx_Record.h" />
+    <ClInclude Include="..\BlackBox\bbx_Requirements.h" />
+    <ClInclude Include="..\BlackBox\bbx_Stamp.h" />
+    <ClInclude Include="..\BlackBox\bbx_Writer.h" />
+    <ClInclude Include="..\Docker\dk_abi_prefix.h" />
+    <ClInclude Include="..\Docker\dk_abi_suffix.h" />
+    <ClInclude Include="..\Docker\dk_blockedqueue.h" />
+    <ClInclude Include="..\Docker\dk_connection.h" />
+    <ClInclude Include="..\Docker\dk_connectionsmanager.h" />
+    <ClInclude Include="..\Docker\dk_docker.h" />
+    <ClInclude Include="..\Docker\dk_herald.h" />
+    <ClInclude Include="..\Docker\dk_identifier.h" />
+    <ClInclude Include="..\Docker\dk_message.h" />
+    <ClInclude Include="..\Docker\dk_requirements.h" />
+    <ClInclude Include="..\Docker\dk_statistics.h" />
+    <ClInclude Include="..\Docker\TcpStates\dk_tcpclosed.h" />
+    <ClInclude Include="..\Docker\TcpStates\dk_tcpconnecting.h" />
+    <ClInclude Include="..\Docker\TcpStates\dk_tcpdestroy.h" />
+    <ClInclude Include="..\Docker\TcpStates\dk_tcpestablished.h" />
+    <ClInclude Include="..\Docker\TcpStates\dk_tcplistening.h" />
+    <ClInclude Include="..\Docker\TcpStates\dk_tcpresolving.h" />
+    <ClInclude Include="..\Docker\TcpStates\dk_tcpstate.h" />
+    <ClInclude Include="..\Fund\Archivist.h" />
+    <ClInclude Include="..\Fund\ArchivistGateway.h" />
+    <ClInclude Include="..\Fund\BbxConst.h" />
+    <ClInclude Include="..\Fund\ExcerptWarning.h" />
+    <ClInclude Include="..\Fund\ExcerptWindow.h" />
+    <ClInclude Include="..\Fund\F2A_BbxOption.h" />
+    <ClInclude Include="..\Fund\GidUraler.h" />
+    <ClInclude Include="..\Fund\LacunaInfo.h" />
+    <ClInclude Include="..\Fund\Lexicon.h" />
+    <ClInclude Include="..\Fund\LOSRoute.h" />
+    <ClInclude Include="..\Fund\LowLockQueue.h" />
+    <ClInclude Include="..\Fund\PipeAction.h" />
+    <ClInclude Include="..\Fund\PipeQueue.h" />
+    <ClInclude Include="..\Fund\PosterBan.h" />
+    <ClInclude Include="..\Fund\PosterShop.h" />
+    <ClInclude Include="..\Fund\PosterSubst.h" />
+    <ClInclude Include="..\Fund\RackWarning.h" />
+    <ClInclude Include="..\Fund\RackWindow.h" />
+    <ClInclude Include="..\Fund\RibSet.h" />
+    <ClInclude Include="..\Fund\Span.h" />
+    <ClInclude Include="..\Fund\TerminalParkWayContent.h" />
+    <ClInclude Include="..\Fund\TimeExtIdContainer.h" />
+    <ClInclude Include="..\Fund\TimeMachine.h" />
+    <ClInclude Include="..\Fund\UralParser\StripShot.h" />
+    <ClInclude Include="..\Guess\ADIncident.h" />
+    <ClInclude Include="..\Guess\AnalyseResult.h" />
+    <ClInclude Include="..\Guess\ArrdepKit.h" />
+    <ClInclude Include="..\Guess\ArrdepWaysGenerator.h" />
+    <ClInclude Include="..\Guess\AsyncWorkResult.h" />
+    <ClInclude Include="..\Guess\BlockpostKit.h" />
+    <ClInclude Include="..\Guess\BlockpostsGenerator.h" />
+    <ClInclude Include="..\Guess\Chain.h" />
+    <ClInclude Include="..\Guess\ChainAnalyst.h" />
+    <ClInclude Include="..\Guess\ChainContainer.h" />
+    <ClInclude Include="..\Guess\ChainsBuilder.h" />
+    <ClInclude Include="..\Guess\ChainScanner.h" />
+    <ClInclude Include="..\Guess\ChangesRecordService.h" />
+    <ClInclude Include="..\Guess\ClutchesGenerator.h" />
+    <ClInclude Include="..\Guess\ClutchKit.h" />
+    <ClInclude Include="..\Guess\DeletionChangeInspector.h" />
+    <ClInclude Include="..\Guess\DislocationDelays.h" />
+    <ClInclude Include="..\Guess\DraftEvent.h" />
+    <ClInclude Include="..\Guess\EventContainer.h" />
+    <ClInclude Include="..\Guess\EventsGenerator.h" />
+    <ClInclude Include="..\Guess\FieldGraph.h" />
+    <ClInclude Include="..\Guess\GLog.h" />
+    <ClInclude Include="..\Guess\GuessException.h" />
+    <ClInclude Include="..\Guess\guess_typedefs.h" />
+    <ClInclude Include="..\Guess\HeadKit.h" />
+    <ClInclude Include="..\Guess\InchainBasicOccupationsMaker.h" />
+    <ClInclude Include="..\Guess\InchainRecoveriesMaker.h" />
+    <ClInclude Include="..\Guess\InchainRemainingResultsMaker.h" />
+    <ClInclude Include="..\Guess\InchainUnityMerger.h" />
+    <ClInclude Include="..\Guess\InchainUnitySplitter.h" />
+    <ClInclude Include="..\Guess\InchainUnityTransmuter.h" />
+    <ClInclude Include="..\Guess\InfoEventsGenerator.h" />
+    <ClInclude Include="..\Guess\IntegrityInfo.h" />
+    <ClInclude Include="..\Guess\IntentionSorter.h" />
+    <ClInclude Include="..\Guess\InterchainsMigrationAnalyst.h" />
+    <ClInclude Include="..\Guess\JointSupport.h" />
+    <ClInclude Include="..\Guess\LosAnalyst.h" />
+    <ClInclude Include="..\Guess\LosInfo.h" />
+    <ClInclude Include="..\Guess\LosInfoKeeper.h" />
+    <ClInclude Include="..\Guess\MementoRecoveryService.h" />
+    <ClInclude Include="..\Guess\MotionForecastService.h" />
+    <ClInclude Include="..\Guess\MotionMap.h" />
+    <ClInclude Include="..\Guess\Msg.h" />
+    <ClInclude Include="..\Guess\ObjectStates.h" />
+    <ClInclude Include="..\Guess\Pathfinder.h" />
+    <ClInclude Include="..\Guess\Pocket.h" />
+    <ClInclude Include="..\Guess\PocketDef.h" />
+    <ClInclude Include="..\Guess\PocketKeeper.h" />
+    <ClInclude Include="..\Guess\PocketService.h" />
+    <ClInclude Include="..\Guess\PocketsGenerator.h" />
+    <ClInclude Include="..\Guess\PriorityChainSolver.h" />
+    <ClInclude Include="..\Guess\ProcessInfoResult.h" />
+    <ClInclude Include="..\Guess\PublishedEvents.h" />
+    <ClInclude Include="..\Guess\RecoveringInfo.h" />
+    <ClInclude Include="..\Guess\RecoveryAnalyst.h" />
+    <ClInclude Include="..\Guess\RecoveryMap.h" />
+    <ClInclude Include="..\Guess\RouteKit.h" />
+    <ClInclude Include="..\Guess\SemaStoppingMonitor.h" />
+    <ClInclude Include="..\Guess\SeniorAnalyst.h" />
+    <ClInclude Include="..\Guess\SmartChain.h" />
+    <ClInclude Include="..\Guess\SmartChainHelpFunc.h" />
+    <ClInclude Include="..\Guess\SpanNoInfoEventsGenerator.h" />
+    <ClInclude Include="..\Guess\SpansCollection.h" />
+    <ClInclude Include="..\Guess\SpanStoppingMonitor.h" />
+    <ClInclude Include="..\Guess\SpotDetails.h" />
+    <ClInclude Include="..\Guess\StationNoInfoEventsGenerator.h" />
+    <ClInclude Include="..\Guess\StoppingMonitor.h" />
+    <ClInclude Include="..\Guess\SwitchSections.h" />
+    <ClInclude Include="..\Guess\TimeConstraints.h" />
+    <ClInclude Include="..\Guess\Tracker.h" />
+    <ClInclude Include="..\Guess\TrackerEvent.h" />
+    <ClInclude Include="..\Guess\TrackingConfiguration.h" />
+    <ClInclude Include="..\Guess\TrackTime.h" />
+    <ClInclude Include="..\Guess\TrafficService.h" />
+    <ClInclude Include="..\Guess\TrainAnalyst.h" />
+    <ClInclude Include="..\Guess\TrainChanges.h" />
+    <ClInclude Include="..\Guess\TrainContainer.h" />
+    <ClInclude Include="..\Guess\TrainField.h" />
+    <ClInclude Include="..\Guess\TrainHistory.h" />
+    <ClInclude Include="..\Guess\TrainInfoAssigner.h" />
+    <ClInclude Include="..\Guess\TrainInfoPackage.h" />
+    <ClInclude Include="..\Guess\TrainRecoveryService.h" />
+    <ClInclude Include="..\Guess\TrainUnity.h" />
+    <ClInclude Include="..\Guess\TrainUnityTargetExplorer.h" />
+    <ClInclude Include="..\Guess\UnitiesModifier.h" />
+    <ClInclude Include="..\Guess\UnityChangeInfo.h" />
+    <ClInclude Include="..\Guess\UnityConversion.h" />
+    <ClInclude Include="..\Guess\VanishAnalyst.h" />
+    <ClInclude Include="..\GUI\GuiColor.h" />
+    <ClInclude Include="..\GUI\GuiForbidActionEnum.h" />
+    <ClInclude Include="..\GUI\GuiMarkClassificator.h" />
+    <ClInclude Include="..\GUI\GuiMarkOptions.h" />
+    <ClInclude Include="..\GUI\GuiMarkStaticInfo.h" />
+    <ClInclude Include="..\GUI\GuiMarkTextClassificator.h" />
+    <ClInclude Include="..\GUI\GuiMarkTypeEnum.h" />
+    <ClInclude Include="..\GUI\InfoTypesClassificator.h" />
+    <ClInclude Include="..\Haron\DC_FMT.H" />
+    <ClInclude Include="..\Haron\Esr_t.h" />
+    <ClInclude Include="..\Haron\Func_Add_Channel.h" />
+    <ClInclude Include="..\Haron\HaronAbcLoader.h" />
+    <ClInclude Include="..\Haron\HaronBbx.h" />
+    <ClInclude Include="..\Haron\HaronChanelCfg.h" />
+    <ClInclude Include="..\Haron\HaronChannelInfo.h" />
+    <ClInclude Include="..\Haron\HaronCommandos.h" />
+    <ClInclude Include="..\Haron\HaronCore.h" />
+    <ClInclude Include="..\Haron\HaronFlatAddressSpace.h" />
+    <ClInclude Include="..\Haron\HaronKitMessage.h" />
+    <ClInclude Include="..\Haron\HaronKitRelayClnt.h" />
+    <ClInclude Include="..\Haron\HaronKitRelaySrv.h" />
+    <ClInclude Include="..\Haron\HaronLive.h" />
+    <ClInclude Include="..\Haron\HaronMgrIO.h" />
+    <ClInclude Include="..\Haron\HaronMgrRelator.h" />
+    <ClInclude Include="..\Haron\HaronRelay.h" />
+    <ClInclude Include="..\Haron\HaronStrongPoint.h" />
+    <ClInclude Include="..\Haron\HaronTime.h" />
+    <ClInclude Include="..\Haron\HaronTransform.h" />
+    <ClInclude Include="..\Haron\HaronTypes.h" />
+    <ClInclude Include="..\Haron\HaronUralGate.h" />
+    <ClInclude Include="..\Haron\HaronWatchdog.h" />
+    <ClInclude Include="..\Haron\HaronWatchdogAction.h" />
+    <ClInclude Include="..\Haron\ImpulsTU.h" />
+    <ClInclude Include="..\Haron\Irq_desc.h" />
+    <ClInclude Include="..\Haron\Kts.h" />
+    <ClInclude Include="..\Haron\LgSubclause.h" />
+    <ClInclude Include="..\Haron\LtsInfo.h" />
+    <ClInclude Include="..\Haron\LTUCommands.h" />
+    <ClInclude Include="..\Haron\LTUCommonFunc.h" />
+    <ClInclude Include="..\Haron\PasswordManager.h" />
+    <ClInclude Include="..\Haron\PrintByteSequence.h" />
+    <ClInclude Include="..\Haron\RestrictIp.h" />
+    <ClInclude Include="..\Haron\Rt_GrainArray.h" />
+    <ClInclude Include="..\Haron\SocketAddress.h" />
+    <ClInclude Include="..\Haron\TNCB.H" />
+    <ClInclude Include="..\Haron\UARTDatagramSocket.h" />
+    <ClInclude Include="..\Haron\UARTSocket.h" />
+    <ClInclude Include="..\Haron\UARTStreamSocket.h" />
+    <ClInclude Include="..\Haron\Uart_CardDsp.h" />
+    <ClInclude Include="..\Haron\uart_clue.h" />
+    <ClInclude Include="..\Haron\uart_DC.h" />
+    <ClInclude Include="..\Haron\uart_DC_def.h" />
+    <ClInclude Include="..\Haron\Uart_Dc_Dialog.h" />
+    <ClInclude Include="..\Haron\uart_DC_EbiLock.h" />
+    <ClInclude Include="..\Haron\uart_dc_kit.h" />
+    <ClInclude Include="..\Haron\uart_dc_MultiDSS.h" />
+    <ClInclude Include="..\Haron\Uart_Dc_Neman.h" />
+    <ClInclude Include="..\Haron\uart_DC_neva.h" />
+    <ClInclude Include="..\Haron\uart_dc_PASS.h" />
+    <ClInclude Include="..\Haron\uart_DC_tk.h" />
+    <ClInclude Include="..\Haron\uart_DC_TrainUIC.h" />
+    <ClInclude Include="..\Haron\uart_DC_trakt.h" />
+    <ClInclude Include="..\Haron\Uart_DefPrc.h" />
+    <ClInclude Include="..\Haron\UART_EbiLock_Message.h" />
+    <ClInclude Include="..\Haron\UART_HRD.H" />
+    <ClInclude Include="..\Haron\UART_IOQ.h" />
+    <ClInclude Include="..\Haron\UART_MultiDSS_Message.h" />
+    <ClInclude Include="..\Haron\Uart_Skt.h" />
+    <ClInclude Include="..\Haron\uart_th.h" />
+    <ClInclude Include="..\Haron\uart_th_stub.h" />
+    <ClInclude Include="..\Haron\UART_TrainUIC_Message.h" />
+    <ClInclude Include="..\Haron\Uart_VecText.h" />
+    <ClInclude Include="..\helpful\AcceptanceInfo.h" />
+    <ClInclude Include="..\helpful\ADProperties.h" />
+    <ClInclude Include="..\helpful\Amqp\Address.h" />
+    <ClInclude Include="..\helpful\Amqp\Factory.h" />
+    <ClInclude Include="..\helpful\Amqp\RestClient.h" />
+    <ClInclude Include="..\helpful\AssertHandler.h" />
+    <ClInclude Include="..\helpful\Attic.h" />
+    <ClInclude Include="..\helpful\Badge.h" />
+    <ClInclude Include="..\helpful\Badge_fwd.h" />
+    <ClInclude Include="..\helpful\BriefMsgBox.h" />
+    <ClInclude Include="..\helpful\Bypass.h" />
+    <ClInclude Include="..\helpful\ClassifyGraph.h" />
+    <ClInclude Include="..\helpful\ConjugateWaysLimit.h" />
+    <ClInclude Include="..\helpful\Cons.h" />
+    <ClInclude Include="..\helpful\ControlMode.h" />
+    <ClInclude Include="..\helpful\Crew.h" />
+    <ClInclude Include="..\helpful\CustomMode.h" />
+    <ClInclude Include="..\helpful\DcDialogHelper.h" />
+    <ClInclude Include="..\helpful\Dictum.h" />
+    <ClInclude Include="..\helpful\DigitalSigner.h" />
+    <ClInclude Include="..\helpful\DistrictGuide.h" />
+    <ClInclude Include="..\helpful\DuePath.h" />
+    <ClInclude Include="..\helpful\Dump.h" />
+    <ClInclude Include="..\helpful\ErrorHandler.h" />
+    <ClInclude Include="..\helpful\EsrGuide.h" />
+    <ClInclude Include="..\helpful\EsrKit.h" />
+    <ClInclude Include="..\helpful\ExceptionTracer.h" />
+    <ClInclude Include="..\helpful\ExcerptLot.h" />
+    <ClInclude Include="..\helpful\ExtId.h" />
+    <ClInclude Include="..\helpful\FilesByMask.h" />
+    <ClInclude Include="..\helpful\FilesOpepations.h" />
+    <ClInclude Include="..\helpful\FlowingChanges.h" />
+    <ClInclude Include="..\helpful\ForbidDetail.h" />
+    <ClInclude Include="..\helpful\FotoFinish.h" />
+    <ClInclude Include="..\helpful\FotoMemory.h" />
+    <ClInclude Include="..\helpful\GdiplusH.h" />
+    <ClInclude Include="..\helpful\GidUralClassificator.h" />
+    <ClInclude Include="..\helpful\GidUralDecl.h" />
+    <ClInclude Include="..\helpful\GriffinMessage.h" />
+    <ClInclude Include="..\helpful\HemCommandRight.h" />
+    <ClInclude Include="..\helpful\HemTabInfo.h" />
+    <ClInclude Include="..\helpful\Informator.h" />
+    <ClInclude Include="..\helpful\Interval_Time_t.h" />
+    <ClInclude Include="..\helpful\Junctions.h" />
+    <ClInclude Include="..\helpful\LimitCore.h" />
+    <ClInclude Include="..\helpful\LimitDetail.h" />
+    <ClInclude Include="..\helpful\LimitTrain.h" />
+    <ClInclude Include="..\helpful\linux_defs.h" />
+    <ClInclude Include="..\helpful\LocalQpidPlukDB.h" />
+    <ClInclude Include="..\helpful\LocoCharacteristics.h" />
+    <ClInclude Include="..\helpful\Locomotive.h" />
+    <ClInclude Include="..\helpful\Log.h" />
+    <ClInclude Include="..\helpful\LogCleaner.h" />
+    <ClInclude Include="..\helpful\LogExtensions.h" />
+    <ClInclude Include="..\helpful\LogStream.h" />
+    <ClInclude Include="..\helpful\LOS_Area.h" />
+    <ClInclude Include="..\helpful\LRUCache.h" />
+    <ClInclude Include="..\helpful\ltu_status.h" />
+    <ClInclude Include="..\helpful\MoveHelpSystem.h" />
+    <ClInclude Include="..\helpful\MovingLaws.h" />
+    <ClInclude Include="..\helpful\NsiBasis.h" />
+    <ClInclude Include="..\helpful\Oddness.h" />
+    <ClInclude Include="..\helpful\ParkWayKit.h" />
+    <ClInclude Include="..\helpful\PicketingInfo.h" />
+    <ClInclude Include="..\helpful\Pilgrim.h" />
+    <ClInclude Include="..\helpful\PrognosisErrorCode.h" />
+    <ClInclude Include="..\helpful\PrognosisFeedback.h" />
+    <ClInclude Include="..\helpful\RailroadClassifier.h" />
+    <ClInclude Include="..\helpful\RecursiveCashingDFSVisitor.h" />
+    <ClInclude Include="..\helpful\RestrictSpeed.h" />
+    <ClInclude Include="..\helpful\RoadCode.h" />
+    <ClInclude Include="..\helpful\RoadKit.h" />
+    <ClInclude Include="..\helpful\RomanNumber.h" />
+    <ClInclude Include="..\helpful\RSensorsSerializable.h" />
+    <ClInclude Include="..\helpful\Rt_Crc32.h" />
+    <ClInclude Include="..\helpful\RT_Locale.h" />
+    <ClInclude Include="..\helpful\RT_Macros.h" />
+    <ClInclude Include="..\helpful\RT_Singleton.h" />
+    <ClInclude Include="..\helpful\RT_ThreadName.h" />
+    <ClInclude Include="..\helpful\rwCoord.h" />
+    <ClInclude Include="..\helpful\rwInterval.h" />
+    <ClInclude Include="..\helpful\Serialization.h" />
+    <ClInclude Include="..\helpful\SpanLine.h" />
+    <ClInclude Include="..\helpful\SpanLockType.h" />
+    <ClInclude Include="..\helpful\SpansRegistry.h" />
+    <ClInclude Include="..\helpful\SpanTravelTime.h" />
+    <ClInclude Include="..\helpful\SpanWayInfo.h" />
+    <ClInclude Include="..\helpful\SpanWork.h" />
+    <ClInclude Include="..\helpful\StateCollector.h" />
+    <ClInclude Include="..\helpful\StateLTS.h" />
+    <ClInclude Include="..\helpful\StationsDigraph.h" />
+    <ClInclude Include="..\helpful\StationsNet.h" />
+    <ClInclude Include="..\helpful\std_charm_compile_option.h" />
+    <ClInclude Include="..\helpful\std_charm_required_platform.h" />
+    <ClInclude Include="..\helpful\stream_Badge.h" />
+    <ClInclude Include="..\helpful\StrToTime.h" />
+    <ClInclude Include="..\helpful\Subpaths.h" />
+    <ClInclude Include="..\helpful\synch.h" />
+    <ClInclude Include="..\helpful\SynonymsResolver.h" />
+    <ClInclude Include="..\helpful\Time_Iso.h" />
+    <ClInclude Include="..\helpful\TopologyBlacklist.h" />
+    <ClInclude Include="..\helpful\TopologyDecl.h" />
+    <ClInclude Include="..\helpful\TopologyHelper.h" />
+    <ClInclude Include="..\helpful\TrainCharacteristics.h" />
+    <ClInclude Include="..\helpful\TrainDescr.h" />
+    <ClInclude Include="..\helpful\TrainEditInfoCode.h" />
+    <ClInclude Include="..\helpful\TrainNumber.h" />
+    <ClInclude Include="..\helpful\TrainSpecialNotes.h" />
+    <ClInclude Include="..\helpful\Trindex.h" />
+    <ClInclude Include="..\helpful\unicode_str_func.h" />
+    <ClInclude Include="..\helpful\Utf8.h" />
+    <ClInclude Include="..\helpful\Uuid.h" />
+    <ClInclude Include="..\helpful\WatchDog.h" />
+    <ClInclude Include="..\helpful\WayInfo.h" />
+    <ClInclude Include="..\helpful\WeightNorms.h" />
+    <ClInclude Include="..\helpful\Xml_ErrorMessage.h" />
+    <ClInclude Include="..\helpful\X_translate.h" />
+    <ClInclude Include="..\Hem\AnnexXmlDecl.h" />
+    <ClInclude Include="..\Hem\DncDspAttendance.h" />
+    <ClInclude Include="..\Hem\DncDspStationOffice.h" />
+    <ClInclude Include="..\Hem\EventTrio.h" />
+    <ClInclude Include="..\Hem\HemChance.h" />
+    <ClInclude Include="..\Hem\HemEvent.h" />
+    <ClInclude Include="..\Hem\HemEventRegistry.h" />
+    <ClInclude Include="..\Hem\HemHelpful.h" />
+    <ClInclude Include="..\Hem\HLog.h" />
+    <ClInclude Include="..\Hem\RegulatoryLayer.h" />
+    <ClInclude Include="..\Hem\RegulatoryTypes.h" />
+    <ClInclude Include="..\Hem\ScheduledLayer.h" />
+    <ClInclude Include="..\Hem\ScheduledPath.h" />
+    <ClInclude Include="..\Hem\SpotEvent.h" />
+    <ClInclude Include="..\Hem\SpotToRegulatory.h" />
+    <ClInclude Include="..\Hem\TrackedChart.h" />
+    <ClInclude Include="..\Hem\XmlStrConst.h" />
+    <ClInclude Include="..\Permission\ActorPermit.h" />
+    <ClInclude Include="..\Rokit\RemoteViewer.h" />
+    <ClInclude Include="..\SenseOfXml\Outlet.h" />
+    <ClInclude Include="..\SenseOfXml\SenseOfXml.h" />
+    <ClInclude Include="..\SenseOfXml\SenseOfXml_Fund.h" />
+    <ClInclude Include="..\SenseOfXml\SenseOfXml_Hem.h" />
+    <ClInclude Include="..\StatBuilder\additional_func.h" />
+    <ClInclude Include="..\StatBuilder\basic_defs.h" />
+    <ClInclude Include="..\StatBuilder\Element.h" />
+    <ClInclude Include="..\StatBuilder\Geo.h" />
+    <ClInclude Include="..\StatBuilder\GraphicElement.h" />
+    <ClInclude Include="..\StatBuilder\GraphicGrid.h" />
+    <ClInclude Include="..\StatBuilder\GraphicView.h" />
+    <ClInclude Include="..\StatBuilder\Link.h" />
+    <ClInclude Include="..\StatBuilder\LogicAutoblocking.h" />
+    <ClInclude Include="..\StatBuilder\LogicBoard.h" />
+    <ClInclude Include="..\StatBuilder\LogicCommand.h" />
+    <ClInclude Include="..\StatBuilder\LogicCommutator.h" />
+    <ClInclude Include="..\StatBuilder\LogicCrossing.h" />
+    <ClInclude Include="..\StatBuilder\LogicDocument.h" />
+    <ClInclude Include="..\StatBuilder\LogicElement.h" />
+    <ClInclude Include="..\StatBuilder\LogicElementFactory.h" />
+    <ClInclude Include="..\StatBuilder\LogicFigure.h" />
+    <ClInclude Include="..\StatBuilder\LogicHead.h" />
+    <ClInclude Include="..\StatBuilder\LogicJoint.h" />
+    <ClInclude Include="..\StatBuilder\LogicLandscape.h" />
+    <ClInclude Include="..\StatBuilder\LogicRoute.h" />
+    <ClInclude Include="..\StatBuilder\LogicSemaleg.h" />
+    <ClInclude Include="..\StatBuilder\LogicStrip.h" />
+    <ClInclude Include="..\StatBuilder\LogicSwitch.h" />
+    <ClInclude Include="..\StatBuilder\StationManager.h" />
+    <ClInclude Include="..\StatBuilder\UnknownAttributs.h" />
+    <ClInclude Include="..\UT\FictivePart.h" />
+    <ClInclude Include="..\UT\GuessNsiBasis.h" />
+    <ClInclude Include="..\UT\InfraPart.h" />
+    <ClInclude Include="..\UT\Parody.h" />
+    <ClInclude Include="..\UT\RealPart.h" />
+    <ClInclude Include="..\UT\RT_Progressor.h" />
+    <ClInclude Include="..\UT\stdafx.h" />
+    <ClInclude Include="..\UT\TC_ActorPeakMemory.h" />
+    <ClInclude Include="..\UT\TC_ActorPermit.h" />
+    <ClInclude Include="..\UT\TC_Aileron.h" />
+    <ClInclude Include="..\UT\TC_Archivist.h" />
+    <ClInclude Include="..\UT\TC_ArchivistGate.h" />
+    <ClInclude Include="..\UT\TC_Asoup.h" />
+    <ClInclude Include="..\UT\TC_Bbx.h" />
+    <ClInclude Include="..\UT\TC_CrewLocomotive.h" />
+    <ClInclude Include="..\UT\TC_DateTime.h" />
+    <ClInclude Include="..\UT\TC_DcdEsdList.h" />
+    <ClInclude Include="..\UT\TC_Dictum.h" />
+    <ClInclude Include="..\UT\TC_DistrictGuide.h" />
+    <ClInclude Include="..\UT\TC_Docker.h" />
+    <ClInclude Include="..\UT\TC_Emitter.h" />
+    <ClInclude Include="..\UT\TC_ExcerptWarn.h" />
+    <ClInclude Include="..\UT\TC_ExcerptWin.h" />
+    <ClInclude Include="..\UT\TC_Excerpt_Lot.h" />
+    <ClInclude Include="..\UT\TC_FlowingChanges.h" />
+    <ClInclude Include="..\UT\TC_Geo.h" />
+    <ClInclude Include="..\UT\TC_GidUraler.h" />
+    <ClInclude Include="..\UT\TC_HemThemes.h" />
+    <ClInclude Include="..\UT\TC_KeyAccumulator.h" />
+    <ClInclude Include="..\UT\TC_Lexicon.h" />
+    <ClInclude Include="..\UT\TC_LimitReason.h" />
+    <ClInclude Include="..\UT\TC_Lts_LogElement.h" />
+    <ClInclude Include="..\UT\TC_MarksGuide.h" />
+    <ClInclude Include="..\UT\TC_PaletteDesigner.h" />
+    <ClInclude Include="..\UT\TC_Pipeline_XmlQueue.h" />
+    <ClInclude Include="..\UT\TC_PosterBan.h" />
+    <ClInclude Include="..\UT\TC_PosterBreath.h" />
+    <ClInclude Include="..\UT\TC_PosterParade.h" />
+    <ClInclude Include="..\UT\TC_PosterShop.h" />
+    <ClInclude Include="..\UT\TC_RackWarning.h" />
+    <ClInclude Include="..\UT\TC_RestrictIp.h" />
+    <ClInclude Include="..\UT\TC_Rokit.h" />
+    <ClInclude Include="..\UT\TC_ServicesGuide.h" />
+    <ClInclude Include="..\UT\TC_ShowCategory.h" />
+    <ClInclude Include="..\UT\TC_SourseEventMgr.h" />
+    <ClInclude Include="..\UT\TC_SpanTravelTime.h" />
+    <ClInclude Include="..\UT\TC_SpotToRegulatory.h" />
+    <ClInclude Include="..\UT\TC_StateLTS.h" />
+    <ClInclude Include="..\UT\TC_Stream_Badge.h" />
+    <ClInclude Include="..\UT\TC_StripShot.h" />
+    <ClInclude Include="..\UT\TC_TrainDelayReason.h" />
+    <ClInclude Include="..\UT\TC_TrainDescr.h" />
+    <ClInclude Include="..\UT\TC_TrainSpecialNotes.h" />
+    <ClInclude Include="..\UT\TC_Uart_VecTexting.h" />
+    <ClInclude Include="..\UT\TC_UralParser.h" />
+    <ClInclude Include="..\UT\TC_Vocal.h" />
+    <ClInclude Include="..\UT\TC_WeightIndicator.h" />
+    <ClInclude Include="..\UT\TC_WndActorHemParams.h" />
+    <ClInclude Include="..\UT\TestSpanKit.h" />
+    <ClInclude Include="..\UT\TestTracker.h" />
+    <ClInclude Include="..\UT\TrackerInfrastructure.h" />
+    <ClInclude Include="..\UT\UtDatagram.h" />
+    <ClInclude Include="..\UT\UtGateway.h" />
+    <ClInclude Include="..\UT\UtHelpfulBlackBox.h" />
+    <ClInclude Include="..\UT\UtHelpfulDateTime.h" />
+    <ClInclude Include="..\UT\UtNsiBasis.h" />
+    <ClInclude Include="..\UT\UtReadFile.h" />
+    <ClInclude Include="..\UT\UtReadResource.h" />
+    <ClInclude Include="..\UT\UtTearDown.h" />
+    <ClInclude Include="..\_version_.h" />
+  </ItemGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..;..\..;..\..\AdoptTools;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>BOOST_THREAD;FILESYSTEM_FUTURE;LINUX;CRYPTOPP_UNUNSED;CRYPTOPP_DISABLE_ASM;UNITTEST;WFMO;_DEBUG</PreprocessorDefinitions>
+      <AdditionalOptions> -finput-charset="utf-8" %(AdditionalOptions)</AdditionalOptions>
+      <CppLanguageStandard>c++17</CppLanguageStandard>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <ClCompile>
+      <PreprocessorDefinitions>BOOST_THREAD;FILESYSTEM_FUTURE;LINUX;CRYPTOPP_UNUNSED;CRYPTOPP_DISABLE_ASM;UNITTEST;WFMO;_DEBUG</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..;..\..;..\..\AdoptTools;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <ClCompile>
+      <PreprocessorDefinitions>BOOST_THREAD;FILESYSTEM_FUTURE;LINUX;CRYPTOPP_UNUNSED;CRYPTOPP_DISABLE_ASM;UNITTEST;WFMO;;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..;..\..;..\..\AdoptTools;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>BOOST_THREAD;FILESYSTEM_FUTURE;LINUX;CRYPTOPP_UNUNSED;CRYPTOPP_DISABLE_ASM;UNITTEST;WFMO;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..;..\..;..\..\AdoptTools;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>
