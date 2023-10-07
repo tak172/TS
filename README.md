@@ -2,4 +2,4 @@
 
 ---
 
-Converter.exe в Charm\_Out_\Table_generator.Debug/
+Table_generator.exe в Charm\_Out_\Table_generator.Debug/
