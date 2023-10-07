@@ -9,7 +9,12 @@
 #include "Attic.h"
 #include "Utf8.h"
 
-struct Data 
+#pragma warning(disable: 26451)
+
+const std::string DIVIDINGLINE(115, '-');
+const std::string SIDELINE(ToUtf8(L"|        |                               |                |                |                |                     |\n"));
+
+struct Data
 {
     std::wstring DK;    // обозначение
     std::string name;   // наименование
@@ -23,7 +28,7 @@ std::wstring MakeDesignation(std::string& section_name, std::string& first_attri
 {
     std::wstring designation_DK;
 
-    if (section_name == "SEMALEGS") 
+    if (section_name == "SEMALEGS")
     {
         if (type == 0) designation_DK += L"Поездн. светофор ";
         else if (type == 1) designation_DK += L"Маневр. светофор ";
@@ -181,33 +186,53 @@ void ReadingOEC(std::vector<std::pair<std::pair<int, std::vector<std::string>>, 
     }
 }
 
+// подсчет однобайтовых символов в строке
+int CountSingleByte(std::string& str)
+{
+    std::string pattern = "1234567890_-()./ ";
+
+    int count = std::count_if(str.begin(), str.end(), [&pattern](char c)
+        {
+            return pattern.find(c) != std::string::npos;
+        }
+    );
+
+    return count;
+}
+
 void Formatting(std::vector<std::pair<std::pair<int, std::vector<std::string>>, Data>>& table, std::ofstream& re_doc)
 {
-    // не ровно из-за кодировок, названия колонок доделаю, когда исправлю
-    re_doc << std::left << std::setw(10) << ToUtf8(L"N")
-        << std::setw(40) << ToUtf8(L"Обозначение сигналов")
-        << std::setw(40) << ToUtf8(L"Наименование")
-        << std::setw(30) << ToUtf8(L"Состояние")
-        << std::setw(30) << ToUtf8(L"Смещение")
-        << ToUtf8(L"Примечание\n");
+    re_doc << DIVIDINGLINE << '\n';
+    re_doc << ToUtf8(L"|   N    |      Обозначение сигналов     |  Наименование  |   Состояние	   |    Смещение    |                     |\n");
+    re_doc << ToUtf8(L"|  п/п   |          в системе ДК         |    объекта     |    объекта     |    в битовом   |      Примечание     |\n");
+    re_doc << ToUtf8(L"|        |                               |                |                |     массиве    |                     |\n");
+    re_doc << DIVIDINGLINE << '\n' << SIDELINE;
 
-    int count = 1;
+    size_t count = 1;
 
-    for (auto& [first, second] : table) {
-        re_doc << std::left << std::setw(10) << count
-            << std::setw(40) << ToUtf8(second.DK)
-            << std::setw(40) << second.name
-            << std::setw(30) << ' '
-            << std::setw(30) << second.bit;
-        if (second.note) re_doc << ToUtf8(L"исп.в лог.обработке\n");
-        else re_doc << std::endl;
+    // не нашел способа лучше средствами стандартной библиотеки
+    for (auto& [first, second] : table)
+    {
+        re_doc << "| " << std::left << std::setw(7) << count
+            << "| " << std::setw(30 + (ToUtf8(second.DK).size() - CountSingleByte(ToUtf8(second.DK))) / 2) << ToUtf8(second.DK)
+            << "| " << std::setw(15 + (second.name.size() - CountSingleByte(second.name)) / 2) << second.name
+            << "| " << std::setw(15) << ' '
+            << "| " << std::setw(15) << second.bit << "| ";
+        if (second.note) re_doc << std::setw(30) << ToUtf8(L"исп.в лог.обработке") << " |\n";
+        else re_doc << std::string(19, ' ') << " |\n";
+
+        re_doc << SIDELINE << DIVIDINGLINE << '\n';
+
+        if (count < table.size())
+            re_doc << SIDELINE;
+
         ++count;
     }
 
     re_doc.close();
 }
 
-int main(int argc, char* argv[]) 
+int main(int argc, char* argv[])
 {
     // с одним .abc могут быть связаны несколько файлов .oec
     if (argc < 4)
@@ -229,9 +254,9 @@ int main(int argc, char* argv[])
     }
 
     ReadingABC(table, abc_doc);
-    
+
     attic::a_document oec_doc;
-    
+
     for (int i = 2; i < argc - 1; ++i)
     {
         if (!oec_doc.load_file(FromUtf8(argv[i])))
